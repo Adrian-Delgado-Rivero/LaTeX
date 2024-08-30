@@ -1,1 +1,1147 @@
 
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[T1]{fontenc}
+%\usepackage{carlito}  % Calibri-like font
+%\usepackage{newtxtext,newtxmath}  % Times New Roman-like font
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{cite}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+% \usepackage{amssymb}
+% \let\Bbbk\relax
+\usepackage{newtxtext,newtxmath}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{enumitem}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{titlesec}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{indentfirst}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\begin{document}
+\begin{center}
+    \fontsize{18}{22}\selectfont\textbf{LA FAMILIA COMO ORGANIZACIÓN SOCIAL Y DE REPRODUCCIÓN ECONÓMICA: No todos los migrantes son pobres}
+\end{center}
+
+\begin{center}
+    \textbf{Luis Pablo Cuba Rojas}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\textbf{\textit{RESUMEN}}
+\end{center}
+\doublespacing
+\noindent
+{
+\textit{El presente artículo es parte del proyecto de investigación sobre \textbf{Migraciones Internacionales: El caso de Cochabamba - Bolivia y Bérgamo - Italia }que cuenta con el apoyo de la Dirección de Investigación Científica y Tecnológica (DICyT) de la Universidad Mayor de San Simón en convenio con la Agencia Sueca de Cooperación Internacional para el desarrollo (ASDI), institución que viene desarrollando diferentes acciones para promover el fortalecimiento de las capacidades científicas en centros de investigaciones universitarias.\\
+En ese sentido, el objetivo del proyecto fue identificar, analizar e interpretar las causas que impulsan la migración internacional y su consecuente efecto en el lugar de origen y sus familias, en el caso particular del contexto migratorio Cochabamba - Bérgamo. Al respecto, se plantean algunas teorías mediante las cuales es posible explicar las causas de la migración y las características de las personas migrantes y sus familias, considerando aspectos socio-económicos, ciclo de vida, criterios de género y generacionales, niveles educativos y características de su hábitat. Además de los cambios a nivel local, como producto del proceso migratorio y del uso de las remesas.\\
+}
+}%%%    RESUMEN
+
+\noindent
+
+{\textit{\textbf{Key Word:} Migración internacional, Remesas, Reproducción Económica y  Territorio} 
+}%%%    KEY WORD
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\singlespacing
+{\section{ANTECEDENTES}
+La esperanza o el miedo de volver de dejar el lugar de origen, ya sea para un tiempo breve o por una larga temporada, acompañan prácticamente a todos aquellos que emigran de un país a otro. Los acontecimientos económicos, políticos y sociales en todo el mundo, así como las guerras en determinadas regiones o países, siempre han tenido influencia sobre los flujos de migración y la migración de retorno. Esto se hace evidente a principios del siglo XXI. Más aun, cómo, cuándo y por qué las personas deciden salir de sus países de origen, puede tener un profundo impacto sobre cómo se van y tan bien cómo se adaptan a su nueva situación como migrantes.\\ 
+
+La Facultad de Ciencias Económicas de la Universidad Mayor de San Simón, a través del Instituto de Estudios Socio-Económicos (IESE) y el Taller de Tesis de Economía, lanzó una convocatoria a estudiantes que tenían interés en realizar estudios vinculados al territorio y a la problemática de la migración. El mismo procedimiento se generó en otros centros de investigación de la UMSS, pertenecientes a las Facultades de Derecho, Humanidades y Arquitectura y permitió desarrollar un trabajo multidisciplinario con importantes resultados en términos de experiencia académica. \\
+
+El objetivo de largo plazo, es el de contribuir al conocimiento, debate y reflexión sobre el impacto económico, socio jurídico y sociocultural en el lugar de origen de bolivianos que migraron a otros países, y proporcionar insumos para formular políticas públicas y acciones de desarrollo que atiendan procesos emergentes de este hecho social. \\
+
+En ese sentido, el objetivo del proyecto fue identificar, analizar e interpretar las causas que impulsan la migración internacional y su consecuente efecto en el lugar de origen y sus familias, en el caso particular del contexto migratorio Cochabamba - Bérgamo. \\
+
+Para lograr ese objetivo general, siete objetivos específicos fueron planteados en el proyecto. En este informe se resaltan los objetivos específicos desarrollados por el equipo de tesistas de la Carrera de Economía que contó, además, con el apoyo interdisciplinario de investigadores y otros tesistas. Los tres objetivos específicos seleccionados son los siguientes: \\
+
+    \begin{enumerate}
+        \item Identificar las características demográficas y espaciales del proceso migratorio a Bérgamo - Italia.
+        \item Conocer las características de los migrantes y sus familias, considerando aspectos socio-económicos, ciclo de vida, criterios de género y generacionales, niveles educativos, características de su hábitat, para indagar sobre las causas de la migración.
+        \item Indagar sobre los cambios a nivel local, en tierra de origen boliviana, como producto del proceso migratorio y del uso de las remesas.
+    \end{enumerate}
+    
+En este marco, el presente informe trata también de destacar el impacto de las remesas sobre la calidad de vida de las familias de migrantes entre la ciudad de Cochabamba y Bérgamo, así como los cambios generados sobre las familias de los migrantes.
+}%%%%%%%%%% ANTECEDENTES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\singlespacing
+{
+\section{¿QUÉ ES LA FAMILIA? }
+
+En esta parte del informe se destacan algunas corrientes teóricas y la relación entre migración y familia. Se asume que es importante analizar la organización familiar y señalar que los modelos de familia tienen un papel central en las políticas estatales de bienestar. Sin embargo, esos modelos dependerán de las prácticas de políticas sociales y si están anclados en un modelo de familia, generalmente implícito y a menudo bastante alejado de la realidad cotidiana de lo/as destinatario/as de esas políticas.\\
+
+Por tanto, el análisis de la organización familiar debe ser uno de los ejes principales de los diagnósticos sobre migración internacional y de la factibilidad de los mecanismos de implementación de políticas públicas que permitan conservar/fortalecer esos modelos familiares. 
+Elizabeth Jelin, socióloga argentina, señala que la familia es una institución social anclada en necesidades humanas universales de base biológica: la sexualidad, la reproducción y la subsistencia cotidiana, por tanto, sus miembros comparten un espacio social definido en términos de relaciones de parentesco, conyugalidad y pater-maternalidad.\\
+
+{
+\begin{quote}
+   \textit{\textbf{"Se trata de una organización social, un microcosmos de relaciones de producción, reproducción y distribución, con su propia estructura de poder y fuertes componentes ideológicos y afectivos. Existen en ella tareas e intereses colectivos, pero sus miembros también tienen intereses propios diferenciados, enraizados en su ubicación en los procesos de producción y reproducción” (Jelin, 2005)."}}\\
+\end{quote}
+}%%%%%%%%CORREGIR, UN TAB Y REFERENCIA  
+
+
+Por tanto, se puede señalar que la cotidianidad es fundamental para la construcción de las relaciones familiares ya que se constituyen en el criterio básico para la formación de hogares y para el desempeño de las tareas ligadas a la reproducción biológica y social. \\
+
+Desde ese punto de vista, se asume que la familia no puede ser considerada una institución aislada, sino que es parte orgánica de procesos sociales más amplios, que incluyen las dimensiones productivas y reproductivas de las sociedades, los patrones culturales y los sistemas políticos. Los hogares y las organizaciones familiares están ligados al mercado de trabajo y a la organización de redes sociales, por lo que tendencias tales como las tasas de fecundidad y de divorcio, o procesos de envejecimiento, son parte de procesos sociales y culturales más amplios.\\
+
+Están también sujetos a políticas públicas. Como institución social básica, la familia no puede estar ajena a valores culturales y a procesos políticos de cada momento o período histórico. Desde ese punto de vista trataremos de establecer un estado del arte de los efectos que puede tener la migración internacional sobre estas instituciones y por tanto su impacto sobre una determinada formación social económica. \\
+
+
+{\subsection{El Tejido Social Productivo (TSP) como teoría del territorio} %%%%% (NOTA 2)
+
+Entendemos que el Tejido Social Productivo (TSP)\footnote{Esta teoría ha sido desarrollada en el marco de la tesis doctoral sobre “Instituciones y desempeño económico: hacia un modelo de desarrollo regional integral a partir del Tejido Social Productivo de Cochabamba. Universidad Mayor de San Simón 2011,  L. Pablo Cuba Rojas}, al representar una categoría de análisis, debe ser visto como parte de un debate más amplio vinculado conjuntamente con el desarrollo territorial que es otra categoría de análisis. Ambas categorías son fundamentales para entender la presente investigación en términos de contribuir a comprender mejor las estrategias y las políticas públicas que tienen que ver con el proceso migratorio que se genera desde un municipio en particular.\\
+
+En este estudio, se asume que el TSP no debe ser considerado independientemente de un conjunto de factores vinculados en un contexto más general que van desde el marco político, el marco jurídico, el contexto socioeconómico, el contexto competitivo y el contexto institucional. Sin embargo, la adecuada interpretación de estas relaciones depende mucho del conocimiento empírico de la realidad del espacio geográfico estudiado que, de alguna manera, modela las características de funcionamiento y articulación del conjunto del territorio.\\
+
+Es necesario comprender la diferencia esencial entre instituciones y organizaciones sociales. Las instituciones son las reglas del juego social, o el conjunto de las constricciones que, en una sociedad, moldean la interacción individual y organizativa. Las instituciones proceden de la evolución social histórica, pero no han sido prediseñadas o construidas por voluntad o decreto. Cada país tiene su específico sistema institucional, el cual determina en gran medida el sistema de incentivos de la interacción económica, política o social, y, por lo mismo, el potencial de eficiencia económica y de equidad social del país en cuestión \footnote{Un análisis más desarrollado sobre el modelo de gestión de desarrollo del municipio de Cochabamba y el espacio como reproducción del capital se encuentra publicado en la serie Documentos de Reflexión Académica del PROMEC, Facultad de Ciencias Económicas-UMSS bajo el título “El espacio territorial como reproductor de la sociedad: El caso del Municipio de Cochabamba” . L. Pablo Cuba Rojas, septiembre 2010 Nº74.}.\\%%%%% (NOTA 3)
+
+
+}%%% El Tejido Social Productivo (TSP) como teoría del territorio
+}%% ¿QUÉ ES LA FAMILIA?
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\section{LA MIGRACIÓN INTERNACIONAL, ¿CUESTIÓN DE ORGULLO?}
+
+
+    {\subsection{La migración desde Bolivia}
+
+
+La crisis económica de 2008 tuvo como resultado importantes desplazamientos de personas alrededor del mundo, con un incremento de la migración de retorno a México, Brasil, Argentina, Filipinas, Turquía e Italia, entre muchos otros países. Aunque en la mayoría de los casos no se trata de cifras masivas, definitivamente es una tendencia importante. El drástico decremento en las oportunidades de empleo, combinado con un aumento de los sentimientos antiinmigrantes en los países de destino, han tenido como resultado el incremento en las cifras de la migración de retorno. \\
+
+{Aun cuando cada vez más personas que atraviesan por esta situación han decidido regresar a casa o han sido forzadas a retornar a su país de origen, ha disminuido la migración circular, al mismo tiempo que cada vez un mayor número de migrantes regulares e irregulares deciden no cruzar las fronteras debido al aumento de los riesgos. Algunas compañías transnacionales de alta tecnología, así como los call centers escogen sitios para ubicarse tomando en cuenta patrones de la migración de retorno, hecho que sugiere una sofisticada respuesta económica transnacional a las políticas y tendencias de la migración nacional. En algunas regiones, como Asia-Pacífico, también hay estudios (aunque\\
+}%%%%%%%%CORREGIR
+
+Sin embargo, de acuerdo a estimaciones del Servicio Nacional de Migración (SENAMIG), los bolivianos que estaban fuera del país a mediados de 2006 fluctúan entre 2.310,000 y 3.315,000 (Romero y Urrelo 2007 y según los consulados establecidos en América Latina,  Europa y Estados Unidos, para abril del 2009 la población boliviana en el exterior alcanzaría a 2.127,193 personas (ver Cuadro Nº 1).\\ %%REF CUADRO
+
+
+No hay duda que estos flujos migratorios están reconfigurando la vida social nacional. Pero, ¿a través de qué mecanismos y con qué impacto? En parte, podemos acercarnos a la pregunta apoyándonos en los conceptos planteados sobre la migración internacional, señalados anteriormente. El aspecto más estudiado de los efectos de la migración internacional en los países de origen es la relación entre la economía privada de remesas y la economía pública de desarrollo.\\ 
+
+
+Una vez  que se estimaron y cuantificaron las remesas, se observó que representaban hasta tres veces más de lo que se gasta en ayuda externa (OIM, 2006), por lo que los investigadores han comenzado a dedicarse a la evaluación comparativa del impacto económico de las remesas sobre el desarrollo (Vertovec, 2000 }; Orozco, 2003). 
+Por ejemplo, se ha identificado que el efecto positivo de desarrollo de las remesas es mayor “en países de origen en los cuales los mercados laborales son más integrados; [la] segmentación [de estos mercados], causada por infraestructura inadecuada o por barreras culturales y étnicas, puede restringir los beneficios en las comunidades de los migrantes y puede aumentar la desintegración relativa de las comunidades no-migrantes” (Katseli 2006: 9)\.\\ %% REFERECIAS
+ 
+%%%%%%%%TABLAS%%%%%%%%}
+{
+\begin{table}[h]
+\centering
+\caption{ESTIMACIÓNES DE LA POBLACIÓN BOLIVIANA EN EL EXTERIOR}
+%\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrC} %%El numero de l,c,r depende del numero de columnas; c es para alinear al centro, l es para alinear a la izquierda y r para alinear a la derecha
+ \multicolumn{3}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+PAÍS	   &POBLACIÓN BOLIVIANA	  &PORCENTAJE  \\  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{3}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ARGENTINA   &1.261.930  &59,32\% \\
+ESPAÑA	    &342.200	&16,09\% \\
+USA	        &266.915	&12,55\% \\
+BRASIL	    &125.900	&5,92\% \\
+CHILE	    &33.400	    &1,57\% \\
+ITALIA	    &30.000	    &1,41\% \\
+REINO UNIDO	&20.000	    &0,94\% \\
+SUIZA	    &9.000	    &0,42\% \\
+JAPÓN	    &6.531	    &0,31\% \\
+SUECIA	    &5.500	    &0,26\% \\
+FRANCIA	    &4.098	    &0,19\% \\
+CANADÁ	    &2.186	    &0,10\% \\
+OTROS PAISES&19.533	    &0,92\% \\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{3}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TOTAL		&2.127.193	&100,00\% \\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\multicolumn{3}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{tabular}
+%}
+	\begin{flushleft}
+	   \textit{\source{Fuente: Elaboración ISCOD en base a la información de consulados a abril de 2009}}	
+	\end{flushleft}
+\end{table}
+}
+    
+    }%La migración desde Bolivia        %%%%%%REFERENCIAS
+    
+    {\subsection{Bolivianos en Italia: ¿Una red social altamente consolidada?}
+
+El segundo país elegido por los migrantes bolivianos en Europa es Italia, donde el periódico de mayor circulación en la ciudad de Bérgamo apunta que un barrio de esa urbe es comparable con una “pequeña Cochabamba”. Es precisamente en esa ciudad donde se gestan las ilusiones de familias de los migrantes (Fernandez, 2009).\\
+
+Según datos del XIX Dossier Statistico Immigrazione (Caritas/Migrantes, 2009a), se constató que los ciudadanos bolivianos ocupan el número 51 en la lista de los grupos nacionales presentes en Italia con sólo 6.796 personas. Por otra parte, la Corte Nacional Electoral (CNE) boliviana estima que los bolivianos en Italia están cerca de las 35.000 personas (Miguel Serrano, 27/06/2007), es decir, 5 veces más respecto a los datos del Instituto Nacional de Estadística de Italia (ISTAT) encontrados en el Dossier de Caritas/Migrantes. \\%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5 FALTA ESA REFERNECIA
+
+
+    
+    }%Bolivianos en Italia: ¿Una red social altamente consolidada?
+    
+    {\subsection{ La migración internacional en Cochabamba: ida y vuelta}
+
+
+Cochabamba, históricamente, se constituye en el departamento de mayor movimiento poblacional: las migraciones internas lo sitúan como un departamento receptor y expulsor de contingentes humanos. En cuanto a la migración transnacional, Cochabamba se ha caracterizado también por ser el departamento que mayor población migrante ha registrado, constituyendo la migración una práctica de larga data en la región. \\
+
+{
+\begin{quote}
+   \textbf{\textit{El moverse hacia destinos nuevos e inciertos más allá del Atlántico no supone iniciar de cero o de la nada proyectos de envergadura; por el contrario, en muchos casos, significa la continuación y/o el despliegue de iniciativas y propósitos anteriores que vinculan históricamente a la región con otros varios espacios geográficos en la Argentina, los Estados Unidos o Brasil. Y es que Cochabamba es desde hace muchos años el ícono mayor de la migración transnacional boliviana (Hinojosa, 2007:3).}} \\ 
+\end{quote}
+}%%%%CENTRARLO Y REFERENCIA
+
+De acuerdo a un mapeo de las migraciones cochabambinas realizado por Caroline Caplan (2008) \footnote{Caplan, Caroline, Migraciones cochabambinas. Impacto social, representación y futuro de la migración a España, Universite Paul Valery Montpellier III (Francia) y CESU (Centro de Estudios Superiores Universitarios, UMSS), avances de investigación, Cochabamba, mayo 2008., existe migración transnacional en todo el departamento  de Cochabamba a excepción de la provincia Bolívar. Siendo el Cercado (ciudad de Cochabamba) y el Valle Alto los lugares de mayor salida de migrantes.  \\%NOTA 4
+\\
+
+Según cifras oficiales de la Dirección de Migración del Departamento de Cochabamba\footnote{Cochabamba tiene una población de 1.938.401 habitantes y es el tercer departamento en importancia en Bolivia (10.389.903 habitantes) según el Censo Nacional del 2012-INE.} %NOTA 5  (DDM), entre enero de 2004 y diciembre de 2007, en esas oficinas se han extendido 148.802 pasaportes, lo que equivale al 1.6\% de la población total del país y al 9\% de la población total departamental. De esa cantidad, los pasaportes para mujeres fueron 93.704 (64\% del total de migrantes del departamento), equivalente al 1\% de la población boliviana y a su vez al 5\% de la población departamental total. %NOTA 5
+\\
+
+Los países de destino declarados en el periodo 2004-2006, en orden de importancia, son: España (79\%), Italia (6\%), EE. UU. (3\%) y otros con flujos menores en esta etapa, aunque en décadas anteriores tuvieron mayor significación como Argentina y Brasil, y otros menos relevantes como Suiza, Alemania, Japón, Israel y Australia. Para el periodo de enero – marzo 2007 se tiene en orden de importancia: España (64.5\%), Italia (6.5\%), EE.UU. (6.2\%) y otros (22.7\%).\footnote{  Román, Arnez Olivia. Mientras no estamos, abril 2009:40. } \\ %NOTA 6
+
+Es posible que estos datos hubieran cambiado por diferentes motivos desde la crisis financiera mundial del 2008 y las políticas públicas de deportación y retorno voluntario. Tal y como opera actualmente el sistema de deportación de Estados Unidos, los inmigrantes no autorizados pueden ser detenidos por periodos indefinidos, sin el derecho a asesoría legal o al debido proceso. Las interrelaciones entre el crimen organizado y la migración de retorno. Las relaciones entre las políticas de deportación, la migración de retorno, el tráfico de personas, el contrabando de migrantes y el crimen organizado transnacional ofrecen muchas importantes vetas de investigación y análisis. También, la migración de retorno —ya sea por decisión voluntaria, decisión obligada por el Estado o deportación— puede ocasionar la separación de los miembros de una familia a través de las fronteras. 
+
+    }%La migración internacional en Cochabamba: ida y vuelta
+    
+    {\subsection{Bolivianos en Bérgamo – ITALIA}
+
+A menudo, la migración es parte de una estrategia económica familiar. Las decisiones acerca de quién, cuándo y hacia dónde migrar son tomadas sobre la base de criterios de género y generacionales en unidades familiares y redes de parentesco. Los flujos migratorios están enraizados en redes de parentesco y relaciones familiares. Los hombres y las mujeres solteras que migran a las ciudades son parte de estas redes, con parientes en la ciudad que van a actuar como mediadores y amortiguadores en su adaptación a la vida urbana. \\
+
+Cuando los hombres migran solos y dejan a sus mujeres e hijos en la comunidad de origen, es probable que luego traigan a sus familias o que regresen. De hecho, las redes de parentesco constituyen un factor de refuerzo de la posibilidad de migraciones más permanentes\\
+
+
+\textbf{La década de los 80: niños, becarios y artistas} \\
+
+En 1980 llegan a Bérgamo dos hermanos que vivieron infancia y adolescencia en la Ciudad de los Niños en Cochabamba, gracias a un contacto con un laico bergamasco. En la segunda mitad de los años ´80 se puede encontrar elementos que permiten hablar de una socialización que gira alrededor del “mundo boliviano de Bérgamo”. \\
+
+Se trata de un grupo de personas que dan vida a una asociación Bolivia – Italia que se registrará formalmente solo en 1991 y continuará su propia actividad durante los ´90 uniendo casi 200 personas. De este grupo forman parte: los becarios y especialistas bolivianos (médicos, paramédicos y artistas), matrimonios mixtos italo-bolivianos, ex alumnos de la Ciudad de los Niños de Cochabamba y también padres adoptivos de niños bolivianos que llegan a Bérgamo gracias a la mencionada asociación “II Conventino”.  \\
+
+\textbf{La década de los 90: la consolidación de la red migratoria}\\
+
+En este período se hace visible en Italia el fenómeno social de la inmigración en Lombardía que es la región con mayor incidencia demográfica dentro el fenómeno migratorio. La provincia de Bérgamo ocupa el tercer lugar en la clasificación por número de inmigrantes extranjeros (Caritas/ Migrantes, 2009).\\ %REFERENCIA
+
+El número de bolivianos en Bérgamo, en esos años, es todavía pequeño. Quien llega lo hace gracias a contactos directos con familiares o con amigos ya incorporados en la vida bergamasca. Podemos decir que en el curso de los años ´90 llegan bolivianos a Bérgamo de tres formas diferentes: la primera, a través de “llamadas nominativas” con visa para trabajo doméstico; éste es el caso de algunas  bolivianas, hermanas o amigas de bolivianos residentes en Bérgamo; la segunda está relacionada con un grupo de ex alumnos de la Ciudad de los Niños de Cochabamba, conformado por parejas casadas con o sin hijos. Finalmente, la última forma que se convertirá en la norma a partir de la segunda mitad de los años ´90 y en un proceso definitivo puesto en marcha dentro de la cadena migratoria: bolivianos ya en Bérgamo ayudan a parientes, amigos o simples conocidos para llegar a esa ciudad.\\
+
+
+\textbf{El siglo XXI y el nuevo sistema migratorio}\\
+
+Con el inicio del nuevo siglo se asiste a un acercamiento de la misión bergamasca en Bolivia a los bolivianos de Bérgamo. En el año 2002 se produce un nuevo periodo de regularización (ley 189/ 2002), por medio de la cual también los bolivianos aparecen en las estadísticas oficiales como una de las poblaciones extranjeras numéricamente relevantes en la provincia de Bérgamo.\\
+
+El 1º de abril del 2007, se pone en vigencia la visa para los ciudadanos bolivianos que pretenden dirigirse a los países de la Unión Europea. Este hecho interrumpe el flujo de “turistas sin regreso”. Los bolivianos llegados en el periodo 2003- 2007 viven en Italia en una condición irregular que no permite el acceso al mercado formal del trabajo, de las viviendas y de otros beneficios sociales, provocando una fuerte vulnerabilidad y exclusión social. El complicado sistema jurídico de regulación de la inmigración en Italia parece ser el principal obstáculo que no permite a la mayoría de los bolivianos, poder legalizar su situación. \\
+
+Sin embargo el 2007 es el año en el cual abren formalmente los primeros servicios administrativos  además de otros servicios como ser: restaurantes, bares, agencias para la transferencia de dinero. El 2 de mayo del 2007 se inaugura  el nuevo consulado honorario boliviano de Bérgamo, convirtiéndose en una institución de referencia para la población boliviana, sus grupos y asociaciones\\
+
+
+    }%Bolivianos en Bérgamo – ITALIA
+
+    {\subsection{Cochabambinos en Bérgamo}
+Una expresión de una autoridad en el sentido del aporte de los bolivianos y especialmente de las y los cochabambinos se sintetiza de la siguiente manera:\\
+
+{
+\begin{quote}
+   \textit{El embajador italiano en Bolivia, Silvio Mignano, confirmó que en la "pequeña ciudad" de Bérgamo, Italia, están registrados 18 mil cochabambinos que hacen aportes económicos "muy importantes" al país -en materia de tributación- y aportan esforzadamente con su trabajo al desarrollo de la ciudad, "por eso cualquier ayuda que traigamos a Bolivia siempre será pequeña comparada con ese aporte humano". (Marzadro, 2009: 59).} 
+\end{quote}
+
+} \\ %REFERENCIA Y CENTRADO, PREGUNTAR PORQUE NO EN NEGRILLA
+
+Las redes sociales en la migración transnacional, en términos generales, tienen características similares en cuanto a las posibilidades de articulación y vinculación al sistema laboral en el país de destino; se viabilizan mediante relaciones sociales de distinta índole, las cuales proporcionan información, acogida, solidaridad o, en el peor de los casos, sirven para la explotación de los migrantes (Domingo y Viruela, 2001). \\ %%REFERNCIA
+
+Las redes familiares y sociales, operan también en las comunidades de origen posibilitando la información, las condiciones económicas y operativas para facilitar el viaje de los/las migrantes.  Principalmente participan de ellas parientes, amigos, compadres/comadres, vecinos, amigos y también agentes económicos formales (bancos, cooperativas, mutuales) e informales (prestamistas, usureros, etc.).\\
+
+Por tanto, podemos concluir que las  redes sociales e institucionales han jugado y juegan un papel fundamental en  el proceso  migratorio entre las ciudades de Cochabamba y Bérgamo. \\
+
+    
+    }%Cochabambinos en Bérgamo
+    
+}%LA MIGRACIÓN INTERNACIONAL, ¿CUESTIÓN DE ORGULLO?
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+{ \section{LA MIGRACIÓN ENTRE COCHABAMBA Y BERGAMO: UN ANÁLISIS DESDE EL PUNTO DE VISTA DE LA FAMILIA COMO ORGANIZACIÓN SOCIAL Y DE REPRODUCCIÓN}
+
+En las ciudades aparecen nuevas formas de consumo de empleo y de producción y, por tanto, también nuevas formas de vida, de organización familiar y de relacionamiento comunitario. En las ciudades aparecen nuevas oportunidades pero también nuevas dificultades. Hay institutos, universidades, escuelas y hospitales, cerca de cada barrio o distrito. Las oportunidades de informarse y entretenerse son mayores que en las áreas rurales. Aunque no todo es igualmente accesible para todos porque hay una desigual distribución del ingreso, sin embargo los niveles de desarrollo humano en los centros urbanos son superiores al promedio global nacional.\\
+
+Desde ese punto de vista el caso de Cochabamba permite realizar una aproximación a la temática de la desigualdad según la ubicación de la gente. Es interesante observar que las familias de los migrantes a Bérgamo viven en zonas casi residenciales que antes eran periurbanas de la ciudad de Cochabamba. Cuentan con una importante cobertura de servicios públicos y el acceso a los mercados y otros servicios parece no ser un obstáculo y podría decirse que algunos de ellos han alcanzado a superar los umbrales de pobreza. El estudio que se ha realizado nos permitirá confirmar esas hipótesis. \footnote{La encuesta  fue aplicada por  el equipo de tesistas  del proyecto  sobre Migraciones  Internacionales, financiado por la Agencia Sueca de Cooperación Internacional para el  Desarrollo (ASDI). Se inició el mes de mayo del 2010 y concluyó con la sistematización el mes de diciembre de ese mismo año. Se encuestaron a 130 familias que fueron ubicadas mediante  vecinos, llamadas telefónicas, amigos a partir de un muestreo aleatorio que se definió sobre la base de la información que contaba el proyecto.} \\%NOTA 7
+
+    {\subsection{Relación de parentesco del migrante con el jefe de hogar}
+
+Cuando hablamos de la FAMILIA señalamos que son las personas del grupo relacionadas por PARENTESCO o por lazos de amistad  en que los adultos asumen la responsabilidad por el cuidado y educación de su entorno familiar, incluyendo la adopción de niños, parientes o amigos que viven bajo el mismo techo. La familia nuclear comprende a los padres como tales (o padre) y los niños dependientes. La familia extendida se refiere a un grupo de las personas donde más de dos generaciones de parientes comparten cotidianamente.\\
+
+La familia, según Jelin (2005) , se define como una institución social anclada en necesidades humanas universales de base biológica: la sexualidad, la reproducción y la subsistencia cotidiana. Sus miembros comparten un espacio social definido en términos de relaciones de parentesco, conyugalidad y pater-maternalidad. Existen en ella tareas e intereses colectivos, pero sus miembros también tienen intereses propios diferenciados, enraizados en su ubicación en los procesos de producción y reproducción. 
+ 
+ 
+
+En ese acercamiento a la definición de familia, el resultado de las migraciones internacionales se expresa en un contexto diferenciado donde se presentan casos de hogares que están separados/destruidos en los que aparecen abuelos criando nietos y en los que se observa un crecimiento de problemas en los jóvenes asociados con la situación familiar, con un alto costo emocional entre los migrantes y los que se “quedan”. \\
+
+Es importante indicar que la experiencia indica que pasada una generación el desarraigo y la separación de la familia se incrementa y en algunos casos la separación familiar es completa. \\
+
+En la vida cotidiana, las relaciones familiares constituyen el criterio básico para la formación de hogares y para el desempeño de las tareas ligadas a la reproducción biológica y social. En el paradigma occidental moderno, la expectativa social es que los vínculos familiares estén basados en el afecto y el cuidado mutuo, aunque también incorporan consideraciones instrumentales, estratégicas y basadas en intereses, tanto en el corto plazo de la vida cotidiana como en una perspectiva intergeneracional de más largo plazo. \\
+
+La situación de las familias de migrantes a Bérgamo parece algo diferente a la descrita anteriormente —sin que esto niegue los intereses propios diferenciados, enraizados en su ubicación en los procesos de producción y reproducción—, resultado de las fuertes redes sociales que se han establecido en esas unidades de reproducción social en las últimas décadas. De acuerdo al estudio, estas familias que han quedado en Bolivia están estructuradas de la siguiente manera: más del 60\% está conformada por hijos(as); los jefes de hogar no superan el 16\%; la/el esposa(o) representa el 10\%; y cerca del 12\% otros parientes. Entre los que se destacan nietos, abuelos y otros parientes, como se puede observar en el gráfico 1.\\ %%%%REFERENCIAR GRAFICP
+
+
+%%%%%%%%%%%%%%%5GRAFICO 1
+{
+\begin{figure}
+    \centering
+    \caption{COMPOSICIÓN DE LA FAMILIA POR RELACIÓN DE PARENTESCO CON EL JEFE DE FAMILIA Y SEXO  \\(en porcentaje) }
+    \label{fig:enter-label}
+    \includegraphics[width=0.8\linewidth]{grafico 1.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Encuesta proyecto: “Migraciones internacionales: el caso de Cochabamba y Bérgamo”}}    
+    \end{flushleft}
+\end{figure}
+}
+    }%Relación de parentesco del migrante con el jefe de hogar
+    
+    {\subsection{Nivel educativo de las familias con migrantes}
+
+Los cambios en los patrones migratorios (de rural-urbano a urbano-urbano) y el aumento de los niveles educativos de las mujeres y el mejoramiento en sus capacidades profesionales están creando condiciones para migraciones y mudanzas de mujeres menos ancladas en motivaciones familiares y más ligadas a oportunidades profesionales.  
+En nuestro caso, el 24,0\% ha completado la educación primaria y el 33,3\% cuenta con educación secundaria y cerca de un 34,0\% tiene entre algún grado de educación técnica, educación universitaria o ha finalizado su educación superior, de acuerdo al siguiente cuadro.
+
+
+
+%%%%%%%%TABLAS%%%%%%%%}
+{
+\begin{table}[h]
+\centering
+\caption{COMPOSICIÓN DE LA FAMILIA POR NIVEL DE INSTRUCCIÓN Y EDAD \\(En porcentaje)}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccc} %%El numero de l,c,r depende del numero de columnas; c es para alinear al centro, l es para alinear a la izquierda y r para alinear a la derecha
+ \multicolumn{7}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Nivel de instrucción} 	& \multicolumn{4}{c}{\textbf{Edad}}  &   	&\textbf{Total}\\  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{7}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 	& \textbf{0-14}	&\textbf{15-39}	&\textbf{40-59}	&\textbf{60 y más}	&\textbf{Sin respuesta} & \\	 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{7}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+Primaria	    &12,6	&2,3	&4,8	&4,0	&0,2	&24,0 \\
+Secundaria	    &3,4	&20,4	&7,4	&1,7	&0,4	&33,3 \\
+Universitario   &0,0	&14,1	&0,2	&0,0	&0,6	&14,9 \\
+Técnico	        &0,0	&6,3	&1,9	&0,4	&0,0	&8,6 \\ 
+Profesional	    &0,0	&6,1	&3,4	&0,8	&0,2	&10,5 \\
+Ninguno	        &2,3	&0,0	&0,4	&0,2	&0,0	&2,9 \\
+Sin respuesta	&2,1	&1,5	&1,3	&0,2	&0,6	&5,7 \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{7}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Total}	        &\textbf{20,4}	&\textbf{50,7}	&\textbf{19,4}	&\textbf{7,4}	&\textbf{2,1}	&\textbf{100} \\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{7}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{tabular}
+}
+	\begin{flushleft}
+	   \textit{
+        \source{Fuente: Elaboración ISCOD en base a la información de consulados a abril de 2009}}	
+	\end{flushleft}
+\end{table}
+} 
+
+
+    
+    }%Nivel educativo de las familias con migrantes
+
+    \newpage
+    {\subsection{ Ocupación de la población de familias migrantes}
+
+La familia nunca es una institución aislada, sino que es parte orgánica de procesos sociales más amplios, que incluyen las dimensiones productivas y reproductivas de las sociedades, los patrones culturales y los sistemas políticos. Los hogares y las organizaciones familiares están ligados al mercado de trabajo y a la organización de redes sociales, por lo que las tendencias tales como las tasas de fecundidad y de divorcio o los procesos de envejecimiento, son parte de procesos sociales y culturales más amplios. Están también sujetos a políticas públicas. Como institución social básica, la familia no puede estar ajena a valores culturales y a procesos políticos de cada momento o período histórico. \\
+
+Considerando la ocupación principal de los miembros familiares que se quedan, destacan los estudiantes o universitarios con un 36,4\%. Un 6,5\% trabaja como profesionales o técnicos; el 9,3\% se dedica al comercio y al transporte y cerca de un 14\% declara ser empleada doméstica o trabajar en el sector de la construcción o en otras actividades vinculadas a la mecánica y carpintería. Es interesante observar que alrededor de un 33\% no respondió a esa pregunta, probablemente por un tema de temor a manifestar su condición laboral lo que pondría de manifiesto que algunas familias no quieren identificarse o desconocen las actividades familiares de los parientes que viven bajo el mismo techo. \\
+
+
+
+%%%%%%%%TABLAS%%%%%%%%}
+{
+\begin{table}[h]
+\centering
+\caption{COMPOSICIÓN DE LA FAMILIA POR OCUPACIÓN Y SEXO \\(En porcentaje)}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccc} %%El numero de l,c,r depende del numero de columnas; c es para alinear al centro, l es para alinear a la izquierda y r para alinear a la derecha
+ \multicolumn{4}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Ocupación} 	& \multicolumn{1}{c}{\textbf{Sexo}}  &   	&\textbf{Total}\\  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{4}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 	& \textbf{Masculino}	&\textbf{Femenino}		& \\	 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{4}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+Comerciantes y (chóferes o taxistas)	   &5,7	  &3,6 	&9,3 \\ 
+Profesionales y técnicos	               &3,2	  &3,4 	&6,5\\
+Albañiles y obreros de la construcción	   &1,7	  &0,0  &1,7\\
+Estudiantes	                               &18,3  &18,1	&36,4\\
+Empleadas domésticas y labores de casa	   &2,3	  &5,1  &7,4\\
+Otros trabajos	                           &3,4	  &1,3  &4,6\\
+Sin respuesta	                           &14,9  &17,7 &32,6\\
+No realiza ninguna actividad	           &0,8	  &0,6 	&1,5\\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{4}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Total}	        &\textbf{50,3}	&\textbf{49,7}	&\textbf{100} \\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{4}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{tabular}
+}
+	\begin{flushleft}
+	   \textit{
+        \source{Fuente: Encuesta proyecto: “Migraciones internacionales: el caso de Cochabamba y Bérgamo” }}	
+	\end{flushleft}
+\end{table}
+} 
+
+
+    
+    }%Ocupación de la población de familias migrantes
+    
+    {\subsection{Emigrantes por relación de parentesco y según estado civil}
+
+Según resultados de la encuesta, dada la particularidad de la migración entre Cochabamba y Bérgamo, se pone de manifiesto que la nueva generación de migrantes representada por los hijos/as, alcanza más del 40\%, mientras que las personas consideradas como jefes de familia son un 20\% y cerca de un 22\% resultan ser otros miembros de la familia. Respecto al estado civil de los migrantes, cerca del 53\% son casados, un 28,5\% solteros y un 11\% estaban separados o viudos antes de migrar, lo que confirma la importancia de la familia como unidad social. 
+    
+    %%%%%%5TABLA
+{
+\begin{table}[h]
+\centering
+\caption{CRELACIÓN DE PARENTESCO DEL EMIGRANTE CON LA FAMILIA Y POR ESTADO  \\(En porcentaje)}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccc} %%El numero de l,c,r depende del numero de columnas; c es para alinear al centro, l es para alinear a la izquierda y r para alinear a la derecha
+ \multicolumn{7}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Relación de parentesco} 	& \multicolumn{4}{c}{\textbf{Estado civil}}  &   	&\textbf{Total}\\  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{7}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 	& \textbf{Casado(a)} &	\textbf{Soltero(a)}	& \textbf{Concubinato}	& \textbf{Separado,}	& \textbf{Sin} & \\	 
+  &&&&\textbf{ divorciado }&\textbf{respuesta}&\\
+  &&&&\textbf{ o viudo}&&\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{7}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+Jefe de familia     	        &11,0	&3,5	  &1,2	&4,1	 &0,6	&20,3\\
+Esposo(a) o Conviviente	        &16,9	&0,6	  &1,7	&2,3	 &0,6	&22,1\\
+Hijo(a)	                        &18,0	&19,2     &2,3	&1,2	 &0	    &40,7\\
+Padres o suegros	            &0,6	&1,2	  &0,0	&1,2     &0	    &2,9\\
+Hermano(a)	                    &2,3    &4,1	  &0,0	&0,6	 &0	    &7,0\\
+Otros parientes o no pariente	&2,9   & 0,0	  &0,0	&0,6     &0	    &3,5\\
+Sin respuesta	                &1,2    &0,0	  &0,0	&1,2	 &1,2	&3,5\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{7}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Total}	&\textbf{52,9}	&\textbf{28,5}	&\textbf{5,2}	&\textbf{11,0}	&\textbf{2,3}	&\textbf{100} \\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{7}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{tabular}
+}
+	\begin{flushleft}
+	   \textit{
+        \source{: Encuesta proyecto: “Migraciones internacionales: el caso de Cochabamba y Bérgamo”  }}	
+	\end{flushleft}
+\end{table}
+} 
+    
+    
+    }%Emigrantes por relación de parentesco y según estado civil.
+
+
+    
+    {\subsection{Ocupación antes de la migración y condición laboral en Bérgamo}
+
+Los flujos migratorios de base familiar se realizan normalmente en etapas. Diferentes miembros de la familia migran en distintos momentos, constituyendo una “cadena migratoria” y estructurando redes familiares multi-locales. En ambos casos, lo que resulta significativo es que las responsabilidades familiares se desligan de la convivencia y la interacción cotidianas. Este fenómeno parece estar en auge y la distancia entre lugares de residencia tiende a aumentar como resultado de las transformaciones en las tecnologías de transporte, de la mundialización de la información y de los canales de comunicaciones.  \\
+
+Desde el punto de vista de la estrategia económica de estas familias multi-locales y de las redes de parentesco, un vínculo crucial es el financiero. Las remesas son muy importantes económicamente; también son importantes como nexos que vinculan, ligan y atan entre sí a miembros de familia que no viven en el mismo lugar.\\
+
+La ocupación es uno de los determinantes importantes para migrar, %%%%%%%5
+
+Tomando en cuenta el Censo 2001, la categoría ocupacional más importante era aquélla relativa al sector de trabajadores por cuenta propia, reforzándose desde ya aquel carácter informal de la economía del municipio del Cercado.\\
+
+Según el presente estudio, con los resultados de la encuesta a la mano, antes de que la gente migre a Italia, en Cochabamba cerca de un 24\% estudiaba, ya sea en la secundaria o a nivel de estudios superiores; de ese porcentaje, el 14\% en Italia trabaja en cuidado de personas y como empleadas domésticas. \\
+
+La ocupación que le seguía aquí en Cochabamba era la de empleadas domésticas y labores de casa con un 20\%; de ese porcentaje, en Italia, la mayoría trabaja, cuidando personas o cumpliendo funciones de empleada doméstica. A otros trabajos que se dedicaban los migrantes antes de tomar la decisión de dejar su país eran comerciantes, chóferes, profesionales o técnicos, carpinteros, mecánicos, albañiles, etc. Estas personas, en Italia, en su mayoría, trabajan en cuidados de personas y como empleadas domésticos.\\
+
+
+%%%%%%5TABLA %%%%%%%%
+{
+\begin{table}[h]
+\centering
+\caption{OCUPACIÓN ANTES DE LA MIGRACIÓN Y CONDICIÓN LABORAL EN ITALIA \\(En porcentaje total)}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccccc}
+ \multicolumn{9}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textbf{Ocupación en Italia} 	& \multicolumn{6}{c}{\textbf{Ocupación antes de la migración}}  &   	&\textbf{Total}\\  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{9}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	& \textbf{Comerciantes} &
+ \textbf{Profesionales}
+ & \textbf{Albañiles y} 
+ & \textbf{Estudiantes} 
+ & \textbf{Empleadas } 
+ & \textbf{Otros}
+ & \textbf{Sin} & \\ 
+ 
+    & \textbf{y chóferes}
+    & \textbf{y}
+    & \textbf{obreros } & & \textbf{ domésticas} & \textbf{trabajos} & \textbf{respuesta} &	\\
+
+    & \textbf{o taxistas} 
+    & \textbf{técnicos}
+    & 
+    \textbf{de la}
+    & 
+    & \textbf{y labores}
+    & \textbf{} 
+    & \textbf{} &	\\
+
+
+    & \textbf{} 
+    &
+    & 
+    \textbf{construcción}
+    & 
+    & \textbf{de casa}
+    & \textbf{} 
+    & \textbf{} &	\\   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{9}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Profesionales                          &	0,0&	2,3&	0,0&	0,0&	0,0&	0,0&	0,0&	\textbf{2,3}\\
+Albañiles y obreros de la construcción &	2,9&	0,6&	0,0&	2,3&	0,0&	0,0&	1,2&	\textbf{7,0}\\
+Cuidado de personas                    &	4,1&	3,5&	0,0&	7,6&	8,1&	5,2&	1,2&	\textbf{29,7}\\
+Empleados domésticos                   &	7,6&	1,2&	0,6&	6,4&	8,7&	4,1&	2,9&	\textbf{31,4}\\
+Otros trabajos                         &	2,3&	4,7&	0,6&	6,4&	1,2&	5,2&	0,6&	\textbf{20,9}\\
+Sin respuesta                          &	0,0&	0,6&	0,0&	1,2&	1,7&	4,1&	1,2&	\textbf{8,7}\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{9}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Total}&	\textbf{16,9}&	\textbf{12,8}&	\textbf{1,2}	&\textbf{23,8}	&\textbf{19,8}	&\textbf{18,6}	&\textbf{7,0}&	\textbf{100}\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{9}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{tabular}
+}
+	\begin{flushleft}
+	   \textit{\source{Fuente: Encuesta proyecto: “Migraciones internacionales: el caso de Cochabamba y Bérgamo”}}	
+	\end{flushleft}
+\end{table}
+}
+
+    
+    }%Ocupación antes de la migración y condición laboral en Bérgamo
+    
+    {\subsection{Ocupación antes de la migración según nivel de instrucción }
+
+De acuerdo al estudio realizado por Carlos A. Foronda (2009) relativo al nivel de instrucción de las personas que se acogen a la migración, las personas que poseen educación secundaria son las que tienen las probabilidades más altas de ser migrantes. Un individuo sin educación tiene 47\% menos de probabilidades de migrar que aquella persona que sí la tiene. \\ %%REFERENCIAS
+
+En efecto, según Da Vanzo (1980, 1981), las personas se tornan menos adversas al riesgo conforme van adquiriendo mayores niveles de educación debido a que poseen una mayor capacidad para obtener y servirse de cualquier información que sea necesaria para resolver las adversidades personales, profesionales o de emprendimiento que se les presenten. \\ %%REFERENCIAS
+
+
+Speare (1974) ya había observado que las personas menos adversas al riesgo son, generalmente, más propensas a emigrar. De acuerdo al Informe Mundial de Desarrollo Humano del PNUD (2009), la predominancia de gente mejor educada, e incluso de gente que goza de mejor salud, entre los migrantes es una realidad mundial. Por otro lado, una persona con educación superior puede tener aproximadamente 40\% menos de probabilidad de migrar que un individuo con educación secundaria. \\ %%REFERENCIAS
+
+
+Este resultado puede indicar que las personas con niveles de educación superior tienen mejores oportunidades en Cochabamba que las personas con educación secundaria. De acuerdo a los resultados de la investigación la mayoría de los migrantes alcanzó el nivel secundario 40,7\%: de ellos, el 11\% eran empleadas domésticas o se dedicaban a las labores de casa, casi el 10\% trabajaban como comerciantes o choferes y el 8,7\% seguía estudiando antes de que migrara. El 16,8\% de los migrantes eran profesionales pero sólo 8,1\% ejercía su profesión en Cochabamba. El 14\% de los migrantes alcanzó la primaria: de ellos, 4,7\% se dedicaban antes de  salir al exterior al comercio o eran chóferes y el 4,1\% eran empleadas domésticas o se dedicaban a las labores de casa. Finalmente, el 13,4\% eran universitarios y de este total el 5,8\% seguía estudiando.\\
+
+
+%%%%%%5TABLA %%%%%%%%
+{
+\begin{table}[h]
+\centering
+\caption{OCUPACIÓN ANTES DE LA MIGRACIÓN SEGÚN NIVEL DE INSTRUCCIÓN \\(En porcentaje total)}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccccc}
+ \multicolumn{9}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Nivel de instrucción} 	& \multicolumn{6}{c}{\textbf{Ocupación antes de la migración}}  &   	&\textbf{Total}\\  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{9}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	& \textbf{Comerciantes} &
+ \textbf{Profesionales}
+ & \textbf{Albañiles y} 
+ & \textbf{Estudiantes} 
+ & \textbf{Empleadas } 
+ & \textbf{Otros}
+ & \textbf{Sin} & \\ 
+ 
+    & \textbf{y chóferes}
+    & \textbf{y}
+    & \textbf{obreros } & & \textbf{ domésticas} & \textbf{trabajos} & \textbf{respuesta} &	\\
+
+    & \textbf{o taxistas} 
+    & \textbf{técnicos}
+    & 
+    \textbf{de la}
+    & 
+    & \textbf{y labores}
+    & \textbf{} 
+    & \textbf{} &	\\
+
+
+    & \textbf{} 
+    &
+    & 
+    \textbf{construcción}
+    & 
+    & \textbf{de casa}
+    & \textbf{} 
+    & \textbf{} &	\\  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{9}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Primaria&	4,7&	0,0&	0,6&	1,2&	4,1&	2,9&	0,6&	\textbf{14,0}&\\
+Secundaria&	9,9&	0,0&	0,6&	8,7&	11,0&	9,3&	1,2&	\textbf{40,7}&\\
+Universitario&	1,2&	2,9&	0,0&	5,8&	1,2&	1,2&	1,2&	\textbf{13,4}&\\
+Técnico&	0,0&	1,2&	0,0&	2,9&	0,6&	4,1&	0,6&	\textbf{9,3}&\\
+Profesional&	1,2&	8,1&	0,0&	4,7&	0,6&	1,2&	1,2&	\textbf{16,8}&\\
+Ninguno&	0,0&	0,0&	0,0&	0,0&	1,7&	0,0&	0,0&	\textbf{1,7}&\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{9}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Sin respuesta}&	\textbf{0,0}&	\textbf{0,6}&	\textbf{0,0}&	\textbf{0,6}&	\textbf{0,6}&	\textbf{0,0}&	\textbf{2,3}&	\textbf{4,1}&\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \multicolumn{9}{c}\hrulefill\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{tabular}
+}
+	\begin{flushleft}
+	   \textit{\source{Fuente: Encuesta proyecto “Migraciones internacionales: el caso de Cochabamba y Bérgamo” }}	
+	\end{flushleft}
+\end{table}
+}
+
+    }%Ocupación antes de la migración según nivel de instrucción
+    {\subsection{Condición laboral en Bérgamo según sexo}
+
+La globalización ha provocado que los países occidentales se conviertan en destacados reclutadores de mano de obra femenina (Sassen, 2007, citado por Guaygua Germán, 2010)  La creciente brecha que separa a los países ricos de los pobres bloquea la movilidad social e incrementa los hogares jefaturizados por mujeres en los países más pobres, lo que provoca la feminización del proceso migratorio. 
+\\
+
+Estas nuevas formas de familia transnacional que se generan con la migración autónoma de las mujeres, difieren significativamente de las que había originado el modelo migratorio de hace unas décadas, en las que la demanda de fuerza de trabajo era principalmente masculina y los hombres migraban en primera instancia (Sorensen, 2005, citado por Guaygua Germán 2010:66).%REFERENCIA
+\\
+Tomando en cuenta el caso boliviano, pese a que no hay cifras oficiales respecto a su volumen y composición, se puede afirmar que estamos frente a una creciente feminización de los flujos migratorios, especialmente hacia Europa. De manera específica, la investigación muestra como la actual migración de los valles tiene rostro de “mujer-madre”, que se construye y reconstruye en ausencia sin dejar de asumir la responsabilidad de satisfacer las necesidades básicas de su entorno familiar (Hinojosa Alfonso, 2009).%REFERENCIA
+\\
+A partir del año 2000, en Bolivia se percibe un aumento acelerado de la migración y un cambio fundamental en el perfil de la misma, es decir, se pasa de una migración principalmente masculina, que tenía como lugares de destino países limítrofes como Argentina y Brasil, a un acelerado incremento de la migración femenina, con una concentración en los países de Europa (Guaygua Germán, 2010:67).%REFERENCIA
+\\
+Estudios de Hinojosa Alfonso revelan que el 67\% de la migración internacional cochabambina de los últimos seis años está compuesta por mujeres; la cifra sube al 70\% en caso de la migración hacia Italia. En la última década, las mujeres cochabambinas han atravesado fuertes procesos de feminización de las migraciones. La denominada feminización de la mano de obra transnacional se entiende como la generación de un mercado transnacional de mano de obra compuesto por redes de mujeres que desempeñan trabajos domésticos, servicio de cuidados personales, comercio callejero, atención de bares y restaurantes, entre otros (Hinojosa Alfonso, 2009).\\
+
+%%%%%%%%%%%%%%%%%%%GRAFICO 2%%%%%%%%555
+{
+\begin{figure}
+    \centering
+    \caption{CONDICIÓN LABORAL EN ITALIA  POR SEXO   \\(en porcentaje) }
+    \label{fig:enter-label}
+    \includegraphics[width=0.8\linewidth]{grafico 2.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Encuesta proyecto: “Migraciones internacionales: el caso de Cochabamba y Bérgamo”}}    
+    \end{flushleft}
+\end{figure}
+}
+%%%%%%%%%%%%5
+
+Según estudio de Marzadro Mirko la migración de bolivianos hacia Italia, principalmente a Bérgamo, se llevó a cabo gracias a la inserción de mujeres en el trabajo doméstico; efectivamente, una de las imágenes socialmente construida que los bergamascos tienen aún hoy, es la de asociar a  “boliviana” al término de “badante” (cuidado de ancianos).\\ %** REFERENCIAR
+
+Según resultados de la presente investigación (Gráfico Nº 2)%% REFERNCIAR
+, se confirma que la migración a Italia, evidentemente, está feminizada con un porcentaje de 67,4\% ya que los varones que migran sólo representan el 32,6\%. De igual manera, la condición laboral de los migrantes cochabambinos en Italia coincide con otros estudios: en su mayoría, son empleados domésticos, cuidadores de personas y otros trabajos. En el caso de las mujeres, el trabajo que predomina es el empleo doméstico representado por el 27,9\% y el cuidado de personas que alcanza el 26,2\% mientras que los hombres se destacan en otros trabajos como mecánicos, carpinteros, pintor, chofer y otros.\\
+
+
+    }
+    {\subsection{Lugar de residencia en Italia}
+
+La migración de cochabambinos hacia Italia, específicamente a Bérgamo, inició a partir del hecho que la Diócesis de Bérgamo mandó muchos misioneros a Bolivia lo que hizo que muchos bolivianos fueran pensando en Bérgamo como sinónimo de Italia. Es justo a través de la misión bergamasca y el apoyo de los numerosos misioneros presentes en Bolivia que muchos cochabambinos se fueron; la ventaja fue que el proceso migratorio, desde su inicio, se sustentó en la demanda de mano de obra en diferentes sectores de la economía y, en particular, en el ámbito de la asistencia a ancianos lo que ha permitido al flujo migratorio crecer y mantenerse gracias a la oferta laboral en ese campo. Al mismo tiempo, el flujo migratorio ha asegurado una oferta abundante y constante también de mano de obra con escaso poder contractual de migrantes irregulares. \footnote{Mirko Marzadro, Conexiones translocales y formación de territorios migratorios. El caso de los cochabambinos de Bérgamo. (2009)\\ %NOTA 8
+
+
+De acuerdo a los datos de la encuesta, la preferencia como destino de los migrantes de la ciudad de Cochabamba es Bérgamo cuyo porcentaje es de 62,8\%; en segundo lugar se encuentran casi con la misma importancia Milán y Roma pero con sólo 12,2\% y el 11\% y otras ciudades como Génova y Cremona que suman un 7\%. Los años de salida varían: el 43,6\% de las personas migrantes salieron en los años 2004 al 2006 mientras que casi el 31\% migró del 2000 al 2003 y el 15,7\% salió en los años 2007 al 2010. Antes del 2000, hay muy pocas personas que se animaron a viajar.\\
+
+
+%%%%%%%%%GRAFICO 3
+{
+\begin{figure}
+    \centering
+    \caption{CIUDAD DE RESIDENCIA EN ITALIA POR AÑOS DE SALIDA DE   \\(en porcentaje) }
+    \label{fig:enter-label}
+    \includegraphics[width=0.8\linewidth]{grafico 3.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Encuesta proyecto: “Migraciones internacionales: el caso de Cochabamba y Bérgamo”}}    
+    \end{flushleft}
+\end{figure}
+}
+%%%%%%%%%%%%%%%%
+
+Hay una disminución de la salida de los cochabambinos hacia Italia del 2007 al 2010, pues una de las causas es la visa que, desde el primero de abril del 2007, tomó vigencia para los ciudadanos bolivianos que pretendían dirigirse a los países de la Unión Europea. Este documento es indispensable para los bolivianos a fin de poder dirigirse a Italia.\\
+
+    
+    }%Lugar de residencia en Italia
+
+    {\subsection{Motivos para migrar}
+
+La teoría de la modernización nos dice que el hombre se mueve solo cuando hay alguna fuerza que le impulsa en el lugar de origen o le atrae en el lugar de destino, pero siempre con el propósito de alcanzar algo nuevo y mejorar su condición de vida o sólo porque posee un espíritu aventurero. Sin embargo, se tratará de plantear que el proceso migratorio entre Cochabamba y Bérgamo está más vinculado a las redes sociales. \\
+
+Según otros estudios los motivos para migrar tienen que ver con la falta de oportunidades de empleo. Al respecto, Román Olivia señala que los migrantes de Bolivia están muy vinculados a la desocupación (55\%), seguida de otras razones (31\%), reunificación familiar (9\%) y el maltrato intrafamiliar (4\%). Dentro de los otros motivos se identifican en orden de importancia: ganar más, bajo ingreso, oportunidad, mejorar, alejarse de la pareja, mejor vida, parientes en España, comprar casa, divorcio, viudez, experimentar, conocer, superarse y tener un negocio propio. Y Arroyo Marcelo  en su estudio “La migración internacional una opción frente a la pobreza” (2009), nos dice que el 86\% de los migrantes transnacionales considera la búsqueda de oportunidades laborales y la mejora de sus condiciones de vida como la principal razón para migrar a otro país; sólo 9\% de los migrantes toman la decisión por razones de estudio del nivel superior universitario y de posgrado. \\
+
+Según los resultados de la presente investigación, los motivos para migrar son los siguientes: la principal que representa el 73,3\% es para mejorar sus ingresos y así ayudar a su familia (en alimentación, educación, salud, etc.). Le sigue con un 7\% la motivación de adquirir o construir  una vivienda mientras que algunos se fueron por otros motivos como son: los problemas que existen en la familia, el estudio o su preparación profesional, la oportunidad de reunirse con algún familiar en Italia y la oportunidad de reunir fondos para pagar sus deudas (ver gráfico Nº 4). %REFERENCIAR TABLA
+Estos resultados ponen de manifiesto la débil estructura que tiene la economía regional para absorber la fuerza de trabajo. \\
+
+Los resultados de la investigación, además de coincidir con los estudios mencionados anteriormente, muestran que la migración entre Cochabamba y Bérgamo tiene características de una migración laboral y el grado de desarrollo económico regional.\\
+
+
+%%%%%%%%%%%%%%%GRAFICO 4
+{
+\begin{figure}
+    \centering
+    \caption{MOTIVOS PARA MIGRAR }
+    \label{fig:enter-label}
+    \includegraphics[width=0.8\linewidth]{grafico 4.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Encuesta proyecto: “Migraciones internacionales: el caso de Cochabamba y Bérgamo”}}    
+    \end{flushleft}
+\end{figure}
+}
+
+%%%%%%%%%%5
+La tasa de desempleo en Bolivia el 2003 era de 11.7\% (Fuente: CIA WorldFactbook) y, de acuerdo al Instituto Nacional de Estadística (INE). Según el gobierno señala que el desempleo en Bolivia, a nivel general, se mantiene en un índice del 6,5 por ciento, pero tiende a bajar mediante las políticas de generación de más fuentes laborales y con la capacitación del capital humano que está implementando el Estado.\\
+    
+    }%Motivos para migrar
+    
+    {\subsection{Remesas}
+
+
+
+Las remesas económicas son, en su mayoría, flujos intra-familiares. Sin embargo, existen otras dos formas de transferencia de dinero que requieren atención. Una es la transferencia de beneficios adquiridos en el país de origen (seguridad social, pensiones, reparaciones económicas de diverso tipo) hacia los lugares de residencia. Las pensiones europeas (italianas, españolas, alemanas) trasladadas a países latinoamericanos pueden ser la fuente de ingresos principal de muchas familias multi-generacionales que logran mantenerse con el ingreso de la abuela o el abuelo. 
+La otra forma de transferencia que se está detectando en la región es la inversión en bienes públicos en comunidades de origen realizadas por grupos de migrados en otros países. \\
+
+En sus tres variantes —la transferencia intrafamiliar, la pensión y la contribución a los bienes públicos—, se trata de modalidades en que la familia y la comunidad se “hacen cargo” de la provisión de recursos frente a la falencia del estado y del mercado. Por lo general, son respuestas familiares a estas falencias. Al mismo tiempo, establecen y refuerzan responsabilidades y reciprocidades definidas culturalmente y amplían el ámbito de las redes y de la seguridad interpersonal.\\
+
+En nuestro caso, la mayoría de las familias reciben ayuda en forma económica y un 41\% en ambas formas (económico y regalos materiales); un 10\% de las familias no recibe ningún tipo de ayuda, situación que puede ser explicada por la reciente migración del familiar y un poco más del 4\% sólo recibió ropa, artefactos tecnológicos y juguetes.\\
+
+
+%%%%%%%%%%%GRAFICO 5
+{
+\begin{figure}
+    \centering
+    \caption{TIPO DE AYUDA QUE RECIBEN LAS FAMILIAS }
+    \label{fig:enter-label}
+    \includegraphics[width=0.8\linewidth]{grafico 5.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Encuesta proyecto: “Migraciones internacionales: el caso de Cochabamba y Bérgamo”}}    
+    \end{flushleft}
+\end{figure}
+}
+
+%%%%%%%%%%%%%
+
+Según resultados de otros estudios como Guaygua Germán (2010) y Román Olivia (2009), más de la mitad de los migrantes envía remesas mensualmente.\\ %%REFERENCIAR***
+
+Los resultados de la presente investigación coinciden con las investigaciones mencionadas anteriormente. Las familias reciben mensualmente de sus parientes que migraron a Italia remesas en cantidades diferenciadas: de 1 a 100 \$us. el 17\%, de 101 a 200 \$us. el 32\%, más de 500 \$us. el 16\%, como indica el gráfico Nº 6. En lo que más se destinan estas remesas es al mantenimiento de la familia (alimentación, vestimenta, educación, salud y servicios básicos) y para la construcción de una vivienda.\\
+
+Las remesas juegan un papel muy importante, en el ámbito familiar ya que permiten mejorar el status socio económico y generar un impacto sobre la base productiva local principalmente en el campo de la construcción de la ciudad de Cochabamba. \\
+
+%%%%%%%5GRAFICO 6
+{
+\begin{figure}
+    \centering
+    \caption{MONTO DE REMESAS RECIBIDAS MENSUALMENTE   }
+    \label{fig:enter-label}
+    \includegraphics[width=0.8\linewidth]{grafico 6.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Encuesta proyecto: “Migraciones internacionales: el caso de Cochabamba y Bérgamo”}}    
+    \end{flushleft}
+\end{figure}
+}
+%%%%%%%5
+
+En los últimos años, las remesas han cobrado singular importancia en los estudios sobre el desarrollo. La llegada masiva de los capitales enviados por los trabajadores migrantes a su país de origen parece suplir numerosas fallas de los países en desarrollo, en particular, los problemas de financiamiento que ni la inversión extranjera directa ni la ayuda para el desarrollo logran resolver. Sin embargo, no hay consenso en cuanto a los efectos reales de las remesas sobre el desarrollo. Los más optimistas las consideran como la solución más viable para impulsar el crecimiento económico y mejorar el bienestar social en las naciones más pobres del planeta. Por su parte, los más pesimistas sólo ven en las remesas un factor suplementario de dependencia que podría empeorar la situación de los países de destino\footnote{  Arroyo Marcelo, La migración internacional: una opción frente a la pobreza (2009)}. \\ %NOTA 9
+
+    
+    }%Remesas
+    
+    {\subsection{Características de la vivienda}
+
+Se le denomina vivienda a todo local habitable destinado a acoger a una familia. La vivienda posee un rol estructurador en la condición y modo de vida que tienen los habitantes dentro de un contexto social.\\
+
+La vivienda es uno de los bienes indispensables para la vida de los seres humanos; además de constituirse en uno de los factores para el desarrollo local, la calidad de la vivienda tiene que ver mucho con la salud.\\
+
+Es por ello que la vivienda adecuada significa algo más que simplemente un techo que protege a la gente que la habitan; una vivienda requiere también de niveles adecuados de privacidad, espacio apropiado y accesibilidad física, seguridad conveniente, garantía de tenencia, iluminación necesaria, una infraestructura básica propicia que incluya provisión de agua, instalaciones sanitarias y tratamiento de desechos\footnote{Naciones Unidas, 2001 La Agenda Habitad, párrafo 60.}. %NOTA 10
+\\
+
+Por estas razones, en este acápite se hace referencia a las principales características de la vivienda, entre las cuales se han considerado tenencia de la vivienda, calidad constructiva, servicios básicos con los que cuenta y, por último, el grado de hacinamiento de las familias.\\
+
+Para evaluar la calidad constructiva, calidad de los servicios básicos y las situaciones de hacinamiento de la vivienda de las familias migrantes se han tomado en cuenta las categorías utilizadas por Carla Ascarrunz (2008).\\ %REFERENCIAR
+
+
+    
+    {\subsubsection{Tenencia de la vivienda}
+
+Realizar el análisis de la tenencia de la vivienda es fundamental debido a que la propiedad tiene mucha significación e importancia para las personas: no sólo es el sitio central del hábitat humano, sino que permite a las personas descanso psicológico y mental, recuperación de la energía física para la restitución de la disposición al desarrollo de sus actividades como las relacionadas con el trabajo y también las de otra índole.
+
+El acceso a una vivienda digna es un derecho humano: el contar con una vivienda propia en nuestro medio es una aspiración muy importante ya que representa un patrimonio muy preciado, difícil de alcanzar especialmente para las personas que viven en zonas urbanas puesto que, debido a la concentración de población y al equipamiento que se ha ido implementando, el costo del suelo se ha elevado. Según los datos de la encuesta, el 70\% de las familias cochabambinas que tienen parientes en Italia dispone de una vivienda propia y tener una vivienda propia se considera un factor primordial para el hábitat de las familias porque tiene que ver con la seguridad de contar con protección frente a posibles problemas del medio en que sus integrantes viven. 
+
+Se considera que en términos de tenencia de una vivienda\footnote{Se entiende por tenencia de la vivienda, el derecho de propiedad que poseen las personas que la habitan. Bolivia: características de la vivienda, Censo 2001.}, el alquiler es la segunda forma más común de acceso a una residencia; supone un gasto de dinero mensual para las familias por este concepto, lo que implica cambios de domicilio constantes por buscar condiciones más favorables también económicamente hablando, en desmedro de las relaciones sociales que se entablan y el sentido de pertenencia con el lugar que se genera cuando las familias se establecen en una zona determinada de forma más estable. Las familias que viven en anticrético o en viviendas cedidas o prestadas por servicio o parentesco, suman un porcentaje de 13\% de las familias cochabambinas entrevistadas que tienen parientes en Italia. Estas últimas formas de tenencia son, de todas maneras, inseguras puesto que el tiempo de duración lo establece el propietario.
+
+%%%%%%%%%%%%%%%%5GRAFICO 7
+{
+\begin{figure}
+    \centering
+    \caption{TENENCIA DE LA VIVIENDA  \\(en porcentaje) }
+    \label{fig:enter-label}
+    \includegraphics[width=0.8\linewidth]{grafico 7.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Encuesta proyecto: “Migraciones internacionales: el caso de Cochabamba y Bérgamo”}}    
+    \end{flushleft}
+\end{figure}
+}
+%%%%%%%%%%%%%%%%%%5
+
+    }%Tenencia de la vivienda
+    {\subsubsection{Servicios Básicos}
+
+La evaluación de la calidad de la vivienda y su uso no estaría completa si no se considera la disponibilidad de los servicios básicos, que son aquellos que contribuyen a que las personas puedan tener un nivel de vida más placentero y, de esa forma, las condiciones necesarias para un desarrollo humano pleno.\\
+
+La calidad de vida, se vincula de manera directa con la dotación de servicios básicos, es decir acceso a alcantarillado, agua y electricidad, puesto que estos son servicios que satisfacen las necesidades básicas de las familias y posibilitan una vida más satisfactoria.  \\
+
+Según la investigación de Román Olivia, la mayoría las familias cuenta con los servicios básicos, los cuales tienen relación con la cobertura local de tales servicios. El 99.7\% tiene electricidad en la vivienda lo que representa el servicio de mayor cobertura en la ciudad; el 83\% tiene agua potable; el 89\% tiene alcantarillado aunque tan sólo el 60\% tiene cuarto de baño dentro la vivienda.\\
+
+\begin{itemize}
+    \item \textbf{Disponibilidad de agua}
+\end{itemize}
+
+Se analiza la disponibilidad de agua para las viviendas y se toma en cuenta la procedencia y distribución de la misma en razón que de estos aspectos depende su calidad. El agua es un elemento imprescindible para la vida del ser humano, ya que su mala calidad puede ocasionar efectos negativos en términos de salud. \\
+
+Revisando los datos del Censo 2001, en el Cercado el 69,5\% de las familias obtiene el agua de cañería de red, el 19,7\% de los carros repartidores mientras que el 4,3\% tiene pozo con bomba y el 6,5\% cuenta con pileta pública, pozo sin bomba, rio vertiente, acequia, laguna y otros.  \\
+
+%%%%%%%%%%%%%%%TABLA 11
+
+%%%%%%%%%%%5
+
+Según los datos de la encuesta, la mayoría de las familias se abastece de agua para beber y cocinar por cañería de red en un 86\%, lo que representa una relevante cantidad de personas que cuentan con buena calidad de agua. Sin embargo, es necesario mencionar que el 10\% no cuenta con un sistema adecuado de aprovisionamiento de agua ya que de estas familias el 8\% recibe el agua por carro cisterna y el 2\% tiene pozo con o sin bomba como se puede observar de los datos del gráfico Nº 13.%%REFERENCIAR
+\\
+
+%%%%%%%%%%%%%%GRAFICO 8_13
+{
+\begin{figure}
+    \centering
+    \caption{DISPONIBILIDAD DE AGUA  \\(en porcentaje) }
+    \label{fig:enter-label}
+    \includegraphics[width=0.8\linewidth]{grafico 8_13.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Encuesta proyecto: “Migraciones internacionales: el caso de Cochabamba y Bérgamo”}}    
+    \end{flushleft}
+\end{figure}
+}
+%%%%%%%%%%%
+
+\begin{itemize}
+    \item \textbf{Disponibilidad de sanitario y desagüe}
+\end{itemize}
+
+Para la evaluación de las condiciones de la habitabilidad de la vivienda y grado de satisfacción, debe considerase también importante la disponibilidad de servicio de sanitario y el sistema de eliminación de aguas servidas, ya que la disponibilidad adecuada de estos servicios reduce los riesgos de contaminación del medio ambiente, del agua para consumo, y en general evita contraer enfermedades. En el Cercado según el Censo 2001 el 89,7\% de los hogares tienen servicio sanitario de los cuales el 73,7\% accede al alcantarillado, 10\% cámara séptica y 16,2\%  tiene pozo ciego; y el 10,3\% no tiene servicio sanitario (ver Cuadro 11).\\ %REFERENCIAR
+
+%%%%%%%%TABLA 12 (11)
+
+%%%%%%%%%%5
+
+De este modo según el presente estudio el 97\% de las familias cuenta con servicio sanitario, el 84\% de estas cuentan con red de alcantarillado estas personas tienen una buena eliminación de excretas, mientras que el 12\% usa cámara séptica\footnote{Cámara séptica es una construcción }como se puede advertir en las categorías las familias de los migrantes a Italia están en condiciones optimas y 4\% tiene pozo ciego \footnote{  Pozo ciego es una fosa en la tierra.}se encuentran en situación regular (ver Gráfico 14).%% REFERENCIAR
+\\
+
+%%%%%%%%%%%GRAFICO 9_14
+{
+\begin{figure}
+    \centering
+    \caption{DISPONIBILIDAD DE SANITARIO Y DESAGÚE }
+    \label{fig:enter-label}
+    \includegraphics[width=0.8\linewidth]{grafico 9_14.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Encuesta proyecto: “Migraciones internacionales: el caso de Cochabamba y Bérgamo”}}    
+    \end{flushleft}
+\end{figure}
+}
+
+%%%%%%%%%%%%
+
+\begin{itemize}
+    \item \textbf{Disponibilidad de energía eléctrica}
+\end{itemize}
+
+Según el Censo 2001 el 93,1\% de los hogares en el Cercado tienen acceso a energía eléctrica solo 6,9\% no cuenta con este servicio, como se observa en el siguiente cuadro:
+
+%%%%%%%TABLA 13 (12)
+
+%%%%%%%%%%
+
+La energía eléctrica es uno de los servicios más accesibles que hay en la ciudad de Cochabamba, y es por esta razón que la totalidad de la familias cuentan con este servicio, solo que antes de que uno de los componentes de la familia migre a Italia, el 94\% contaba con este servicio y después de recibir las remesas el 6\% implemento energía eléctrica el total de estas personas están en optimas situaciones. (Ver gráfico Nº 15).%REFERENCIAR
+Es importante destacar este hecho que confirma que una pequeña proporción de estos migrantes de Cochabamba – Bérgamo que podría estar viviendo en condiciones precarias antes de migrar, pero también es necesario señalar que las nuevas construcciones que se hicieron tuvieron una demanda de energía eléctrica.\\
+
+%%%%%%5GRAFICO 10_15
+{
+\begin{figure}
+    \centering
+    \caption{DISPONIBILIDAD DE ENERGÍA ELÉCTRICA \\(en porcentaje) }
+    \label{fig:enter-label}
+    \includegraphics[width=0.8\linewidth]{grafico 10_15.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Encuesta proyecto: “Migraciones internacionales: el caso de Cochabamba y Bérgamo”}}    
+    \end{flushleft}
+\end{figure}
+}
+%%%%%%5
+
+    }%Servicios Básicos
+    {\subsubsection{Grado de hacinamiento}%%%%%% Falta el 4-11-3
+
+Este aspecto tiene que ver con las características socio económicas de la población, que es el caso de Cochabamba. Por tanto cuando se realiza el análisis de la situación de habitabilidad de la vivienda, es importante hacer referencia a los ambientes que esta dispone, la disponibilidad de suficientes espacios para las familias de estas viviendas y en especial el uso de estos ambientes. \\
+
+Desde el punto de vista del desarrollo humano se observa que el número de habitaciones utilizadas de acuerdo a los resultados de la encuesta el 88\% de las familias, utilizan 1-2 personas por dormitorio; el 10\% ocupa una habitación entre 3-4 personas y el resto 5 o más personas por dormitorio. (Ver gráfico Nº16).%REFERENCIAR
+\\
+
+Respectó al grado de hacinamiento la mayoría de la familias están optimas condiciones, pocas viven en situación regular pero también hay familias que están en situación regular, y mala.  
+\\
+
+%%%%%%%%%GRAFICO 11_16
+{
+\begin{figure}
+    \centering
+    \caption{GRADO DE HACINAMIENTO \\(en porcentaje) }
+    \label{fig:enter-label}
+    \includegraphics[width=0.8\linewidth]{grafico 11_16.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Encuesta proyecto: “Migraciones internacionales: el caso de Cochabamba y Bérgamo”}}    
+    \end{flushleft}
+\end{figure}
+}
+%%%%%%%%%%5
+
+De acuerdo a los criterios establecidos en el presente estudio los migrantes de Cochabamba – Bérgamo tiene ciertas particularidades en cuanto al uso de las remesas el de mantener sus condiciones y niveles de vida que está por encima de la media de pobreza. Las remesas se destinan principalmente a mejorar el nivel de vida en los hogares, en particular, a la adquisición de bienes y servicios domésticos que dan cuenta de un mayor nivel de bienestar.\\
+
+\begin{itemize}
+    \item \textbf{Construcción de la vivienda con remesas }
+\end{itemize}
+
+De esta forma, podemos esperar que las remesas se destinen en gran medida, a financiar la construcción, compra o refacciones de una vivienda, que mejoren las condiciones de vida de las familias en las comunidades de origen.\\
+
+Retomando la investigación sobre La familia transnacional realizado en La Paz por Guaygua Germán, 2010; las remesas contribuyen al bienestar de la familia, la inversión en construcción es el mayor rubro después de la subsistencia y el pago de deuda, una vez que las familias cubren los gastos de subsistencia se busca invertir en la compra de un terreno y la posible construcción / ampliación de una casa o la compra de otro bien inmueble y también para los procesos de reproducción social.\\
+
+Según los resultados de la presente investigación, una buena parte de las familias que reciben remesas realizan la inversión de la compra o de la construcción de una vivienda, la adquisición de este bien sirve para conseguir una especie de reconocimiento y que el proyecto migratorio resulte un éxito. Los años que más se construyeron de las personas que si  utilizaron las remesas en la vivienda fue del 2007-2010 y precisamente estos años el sector de la construcción fue beneficiado por que tuvo un crecimiento significativo (ver Gráfico 17).%REFERENCIAR
+\\
+
+%%%%%%%%%%%%%%5 GRAFICO 12_17
+{
+\begin{figure}
+    \centering
+    \caption{CONSTRUCCIÓN DE LA VIVIENDA CON REMESAS POR AÑO \\(en porcentaje) }
+    \label{fig:enter-label}
+    \includegraphics[width=0.8\linewidth]{grafico 12_17.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Encuesta proyecto: “Migraciones internacionales: el caso de Cochabamba y Bérgamo”}}    
+    \end{flushleft}
+\end{figure}
+}
+%%%
+
+\begin{itemize}
+    \item \textbf{Remodelaciones o ampliaciones de la vivienda con remesas}
+\end{itemize}    
+
+Algunas de las familias que no invirtieron en la construcción de una vivienda, utilizaron las remesas en remodelaciones y ampliaciones de la casa, el 33\% en mejoro los cuartos ya sea construyendo más habitaciones o hacerle arreglos como pintar las paredes, el 29 \% son otros ambientes que se priorizan entre estos esta (las muralla, los pisos, pintura de las paredes y patio) ,13\% mejoran la cocina, y algunas familias (cocina, baño y cuartos). (Ver gráfico Nº 18).\\%REFERNECIAR
+
+%%%%%%%%%%GRAFICO 13_18
+{
+\begin{figure}
+    \centering
+    \caption{AMBIENTES MEJORADOS O AMPLIADOS CON LAS REMESAS  \\(en porcentaje) }
+    \label{fig:enter-label}
+    \includegraphics[width=0.8\linewidth]{grafico 13_18.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Encuesta proyecto: “Migraciones internacionales: el caso de Cochabamba y Bérgamo”}}    
+    \end{flushleft}
+\end{figure}
+}
+%%%%
+
+
+    }%Grado de hacinamiento
+    
+    }%Características de la vivienda
+    
+    {\subsection{Uso de  remesas en la vivienda}
+    
+    }%Uso de  remesas en la vivienda
+    
+    {\subsection{Cambios generados por la migración}
+
+\begin{itemize}
+    \item \textbf{Mejoras en la vivienda por la migración}
+\end{itemize} 
+
+Uno de los hallazgos importantes de la investigación son los cambios que genera la migración internacional entre Cochabamba y Bérgamo. Según los datos de la encuesta, la mayoría de las familias mejoran las viviendas a causa de la migración, porque los parientes que están en Italia envían remesas para que sus seres queridos mejoren su calidad de vida ya sea con la construcción de una vivienda o realizando remodelaciones o ampliaciones.\\
+
+El 66\% dijo que si mejoro la vivienda a causa de la migración ya sea en la construcción o en refacciones en varias partes de la vivienda ya sea en las habitaciones, patio, cocina  y el 34\% dijo que no hubo ningún cambio. (Ver gráfico Nº 18)\\ %REFERENCIAR
+
+%%%%%%%%%%%%GRAFICO 19
+{
+\begin{figure}
+    \centering
+    \caption{MEJORAS EN LA VIVIENDA POR LA MIGRACIÓN \\(en porcentaje) }
+    \label{fig:enter-label}
+    \includegraphics[width=0.8\linewidth]{grafico 14_19.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Encuesta proyecto: “Migraciones internacionales: el caso de Cochabamba y Bérgamo”}}    
+    \end{flushleft}
+\end{figure}
+}
+%%%%%5
+
+\begin{itemize}
+    \item \textbf{	Efectos o cambios en el barrio por la migración }
+\end{itemize}
+Los efectos que puede ocasionar la migración en un lugar determinado son importantes tanto para los vecinos y para la familia migrante. De acuerdo a las respuestas de las familias encuestadas, los cambios que genera la migración en el barrio en su mayoría son las mejores condiciones de vida de estas con un (66,3\%) esto porque, las familias recibiendo las remesas tienen la posibilidad de comprar más cosas para la alimentación, mejor educación, mejor salud, tener accesorios que antes no tenían como computadoras, celulares, televisión, etc. La migración también ayudo a algunas familias a tener acceso a algunos servicios básicos como alcantarillado, agua potable y energía eléctrica, y el 24,5\% dijo que el barrio tiene mejor infraestructura esto hace referencia a las nuevas construcciones en el lugar o las mejoras en sus barrios (Ver gráfico Nº 19).\\%%% REFERENCIAR
+
+%%%%%%%%%%%%GRAFICO 20
+{
+\begin{figure}
+    \centering
+    \caption{EFECTOS O CAMBIOS EN EL BARRIO POR LA MIGRACIÓN \\(en porcentaje) }
+    \label{fig:enter-label}
+    \includegraphics[width=0.8\linewidth]{grafico 15_20.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Encuesta proyecto: “Migraciones internacionales: el caso de Cochabamba y Bérgamo”}}    
+    \end{flushleft}
+\end{figure}
+}
+%%%%%5
+Estas situaciones favorables no sólo permiten beneficiarse de las políticas urbanas sino que además las inversiones realizadas a través de las remesas permiten valorizarse lo que no sucede con otro tipo de migraciones internacionales cuyo impacto es menor por las características del Tejido Social Productivo (TSP) del territorio, que en el caso de Cercado es el más alto de toda la región, es decir hay más condiciones institucionales, infraestructura y articulación social. \\
+
+Esto facilita los procesos de reproducción familiar con fuerte influencia de los emigrantes que, además, transfieren aspectos socio-culturales a través del tipo de viviendas que muchas veces son réplicas  de las ciudades donde han vivido  o también por “imitación social urbana” de aquellas viviendas que rodean su entorno territorial.\\
+
+
+    }%Cambios generados por la migración
+    
+    } %LA MIGRACIÓN ENTRE COCHABAMBA Y BERGAMO: UN ANÁLISIS DESDE EL PUNTO DE VISTA DE LA FAMILIA COMO ORGANIZACIÓN SOCIAL Y DE REPRODUCCIÓN
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+{\section{CONCLUSIONES}
+{\subsection{Efectos observados en el estudio}
+\begin{itemize}
+    \item 	Las zonas principales de migración entre Cochabamba y Bérgamo se encuentran en aquellas áreas ubicadas en lo que era el cinturón periurbano de la ciudad de Cochabamba, por la ampliación y mejoras de esos distritos y barrios por efecto de la Ley de Participación  Popular y la Gestión Municipal (1998-2010) son consideradas zonas residenciales.
+    \item	El eje Cercado, Quillacollo y Sacaba concentra el 8O \% de los emigrantes entre Cochabamba y Bérgamo lo que permite calificar que esta migración ha sido eminentemente urbana.
+    \item	Por tanto, la economía familiar de los emigrantes a Bérgamo está por encima de la media en términos del Índice de Desarrollo Humano (IDH),  que es de 0,67 uno de los más altos a nivel nacional.
+    \item	Este tipo de emigrantes proviene de territorios  muy consolidados de acuerdo al Tejido Social Productivo (TSP) elaborado para Cochabamba,  lo que  ha permitido mejorar sus condiciones de vida y contar con redes familiares más estables y en la no se han generado grandes rupturas internas por efecto de la migración sino su aporte al territorio ha sido más importante que el impacto en zonas más desintegradas o con un TSP bajo.
+    \item	Las familias de los emigrantes a Bérgamo, han destinado parte importante de los recursos financieros recibidos para  mejorar la vivienda que aunado por las políticas municipales de los últimos 10 años ha tenido un impacto mayor ya que el destino de sus inversiones se ha valorizado al contar con servicios básicos y espacios públicos consolidados.
+    \item	Sin embargo, un 8O\% de las familias estudiadas no utilizan las remesas para inversiones productivas posiblemente porque la prioridad ha sido consolidar su espacio de reproducción social. Otros tipos de migración en cambio, responden a otros criterios como  el de realizar negocios, compra de vehículos, mejorar su estatus socio cultural como es el caso de los emigrantes entre Cochabamba y Estados Unidos, esto se debe a los ingresos más altos de esos emigrantes que se generó principalmente en la década de los años 70. 
+    \item	Las remesas provenientes desde Italia, al igual que otras generadas en Europa, han dinamizado el sector financiero permitiendo su crecimiento y estabilización por la confianza de los ahorristas y principalmente porque esas familias emigrantes  ven un mecanismo más seguro para canalizar sus recursos financieros vía el sistema financiero formal. En la década de los años 80 hubo malas experiencias sobre todo porque muchas familias canalizaron sus ahorros vía empresas que les ofrecían intereses más altos y terminaron perdiendo todos sus ahorros / casos FINSA y MULTIACTIVA.
+    \item	Las remesas no se utilizan, de acuerdo al estudio, en inversiones sino principalmente en mejoras o construcción de la vivienda, en menor escala para la compras de terrenos  o para la compra de viviendas o departamentos
+    \item	La migración a Bérgamo ha establecido fuertes redes sociales desde la década de los 60 lo que ha facilitado los procesos migratorios desde Cochabamba comparado con otras salidas que se han generado a Europa principalmente a España. Esto no significa que necesariamente se hubiera resuelto el caso de muchos emigrantes para que tengan un status legal en esa ciudad.
+    \item	La aplicación de la visa para ingresar a Europa ha disminuido la migración en los últimos cinco años, esto limita la intención de los potenciales emigrantes que no cuentan con papeles suficientes para realizar el viaje o no forman parte de esa red social importante que se ha construido en Bérgamo.
+    \item	Las actividades laborales en las que se desempeñan los emigrantes en la principal ciudad de recepción sigue siendo poco calificadas, cerca de un 80\% de los emigrantes señala que no han podido mejorar su situación laboral que está vinculada sobre todo al sector domestico.
+    \item	El impacto sobre el territorio es más significativo que en otros casos en Bolivia, ya que estos emigrantes y sus familias han tenido cierta estabilidad habitacional y también social, lo que les ha permitido cumplir con sus aportes en impuestos por sus viviendas o terrenos con el fisco a diferencia de otro tipo de emigrantes con un bajo aporte en términos fiscales
+\end{itemize}
+}% Efectos observados en el estudio
+{\subsection{Proyecciones a mediano y largo}
+\begin{itemize}
+    \item Las remesas en general, provenientes de la zona de estudio, y de otros países han tenido un efecto muy positivo en el país que ha permitido mejorar las Reservas Monetarias Internacionales (RIN), a diferencia del pasado que no permitía registrar estos aportes formalmente.
+    \item	El sistema financiero ha desarrollado sus servicios en forma muy innovadora para canalizar esas remesas y aquí juega un papel importante la Autoridad Financiera de Supervisión (antes conocida como superintendencia de Bancos) es decir la construcción de institucionalidad financiera en el país desde la década de los años 90 ha sido fundamental en este proceso.
+    \item	Sin embargo, el riesgo de que colapse el sector de la construcción y afecte el sistema financiero está latente ante una crisis financiera debido a la especulación constructiva sobre todo en las principales ciudades del eje de crecimiento en Bolivia (La Paz, Cochabamba y Santa Cruz)
+    \item	Un incremento de las tasas de interés podría generar un ajuste a todo este proceso que está en función a la Paridad del Poder Adquisitivo (PPA). El circuito coca-cocaína afecta en esta demanda especulativa
+    \item	El poco crecimiento de las inversiones privadas en sectores estratégicos de la economía  puede generar una disminución de la base productiva lo que aumentaría el riesgo de un colapso del sistema económico ya que debería modificarse la PPA de acuerdo a la teoría de largo plazo de la producción. 
+    \item	Finalmente, podemos señalar que la migración internacional generada entre Cochabamba y Bérgamo, que se generó a finales de  los sesenta, marcó el inicio de cambios muy profundos en la región, que incluyeron no solamente el aumento en la participación en la fuerza de trabajo de mujeres jóvenes solteras, sino también de mujeres casadas y aun con hijos. 
+    \item	Futuros estudios, podrán ayudar a esclarecer si las dificultades enfrentadas por los hombres en el mercado de trabajo, asociadas a la fuerte expectativa de ser el principal soporte y el “jefe de familia”, se han reflejado  en la esfera familiar. 
+    \item	Es posible que los obstáculos enfrentados al tratar de satisfacer las expectativas de los roles tradicionales generan presiones sobre las familias para desarrollar nuevas estrategias de sobrevivencia y cambios en sus estrategias de vida, que de alguna manera han sido estudiadas a través de estudios de caso por el equipo multidisciplinario que participó en el estudio donde se hizo análisis en profundidad sobre los aspectos psicosociales y jurídicos entre las familias seleccionadas
+\end{itemize}
+}% Proyecciones a mediano y largo
+}% CONCLUSIONES
+
+\begin{thebibliography}{22}
+\bibitem{arroyo2009migracion}
+ARROYO, JIMÉNEZ MARCELO. (2009). La migración Internacional: Una opción frente a la pobreza, (Impacto socioeconómico de las remesas en el área metropolitana de La paz), La Paz.\\
+\\
+ \bibitem{ascarrunz2008condicion}
+ASCARRUNZ, MENDIVIL CARLA. (2008). Condición de Vulnerabilidad en el Municipio de Cercado, Cochabamba: UMSS, CEP.\\
+
+\bibitem{bustillos2008situacion}
+BUSTILLOS, GARCIA HUGO Y MARTINEZ VERA RICARDO. (2008).Situación de familias de migrantes a España en Bolivia, La Paz: (AMIBE) y (ACOBE).\\
+
+\bibitem{caplan2008migraciones}
+CAPLAN, CAROLINE. (2008). Migraciones cochabambinas. Impacto social, representación y futuro de la migración a España, Université Paul Valéry Montpellier III (Francia) y CESU (Centro de Estudios Superiores Universitarios, (UMSS), avances de investigación, Cochabamba.  \\
+
+\bibitem{2011CubaRojas}
+CUBA, ROJAS LUIS PABLO.(2011). “Instituciones y desempeño económico: hacia un modelo de desarrollo regional integral a partir del Tejido Social Productivo de Cochabamba. Universidad Mayor de San Simón 201. PROMEC.\\
+
+\bibitem{cuba2010espacio}
+CUBA, ROJAS LUIS PABLO.(2010) “El espacio territorial como reproductor de la sociedad: El caso del Municipio de Cochabamba” . No 74 \\
+
+\bibitem{dandler1991migracion}
+DANDLER, JORGE Y MEDEIROS CARMEN. (1991). Migración temporaria de Cochabamba, Bolivia, a la Argentina: Patrones e impacto en las áreas de envío. En Patricia Pessar (comp.) Fronteras permeables, Buenos Aires: Planeta.\\
+
+\bibitem{domingo2001cadenas}
+DOMINGO, CONCHA y VIRUELA, RAFAEL (2001): “Cadenas y redes en el proceso migratorio migratorio español”, Scripta Nova. Revista Electrónica de Geografía y Ciencias Sociales, http:\\www.ub.es/geocrit/sn-94-8.htm\\
+
+ \bibitem{guaygua2010familia}
+GUAYGUA, GERMÁN, CASTILLO BEATRIZ, PRIETO PATRISIA, ERGUETA PAMELA: (2010). La familia transnacional (Cambios en las relaciones sociales y familiares de migrantes de Alto y La Paz a España), La Paz.\\
+
+\bibitem{hinojosa2009buscando}
+HINOJOSA, GORDONAVA ALFONSO R. (2009). Buscando la vida (Familias bolivianas transnacionales en España), La Paz.\\
+
+\bibitem{ine2008estadisticas}
+INSTITUTO NACIONAL DE ESTADISTICA. (2008).Estadísticas e indicadores socioeconómicos del departamento de Cochabamba, Cochabamba, 14 de septiembre 2008.\\
+
+\bibitem{ine2001bolivia}
+INSTITUTO NACIONAL DE ESTADISTICA. (2001). Bolivia y Servicios Básicos, La Paz. \\
+
+\bibitem{jelin2005familias}
+JELIN, ELIZABETH. (2005).Las familias latinoamericanas en el marco de las transformaciones globales: hacia una nueva agenda de políticas públicas, Buenos Aires.\\
+
+\bibitem{katseli2006effects}
+KATSELI, Loula; LUCAS, Robert; XENOGIANI, Theodora. (2006). Effects of Migration on Sending Countries: What do we Know? Working paper no. 250, OECD Development Center.\\
+
+\bibitem{marzadro2009conexiones}
+MARZADRO, MIRKO. (2009). Conexiones translocales y formación de territorios migratorios: El caso de los bolivianos cochabambinos de Bérgamo, Venecia.\\
+
+\bibitem{orozco2003migration}
+OROZCO, MANUEL. (2003). Migration and Development: Integration to the Global Economy and Policy Opportunities for Donors. Paper presented at the conference “International Migrant Remittances: Development Impact, Opportunities for the Financial Sector and Future Prospects”. U.K. Department for International Development, London, October 9–10. Disponible en: www.livelihoods.org/hot topics/migration/remittances.html.\\
+
+\bibitem{romero2007diagnostico}
+ROMERO, Miguel Angel; URRELO, Maria Luisa. (2007). Diagnostico Base Sobre la Migración de Población Bolivia a España. La Paz: CEDLA.\\
+
+
+\bibitem{roman2009mientras}
+ROMÁN, ARNEZ OLIVIA. (2009). Mientras No Estamos: Migración de mujeres-madres de Cochabamba a España, Cochabamba: Centró de Estudios Superiores Universitarios CESU.\\
+
+
+\bibitem{vertovec2001rethinking}
+VERTOVEC, STEVEN. 2001. Rethinking Remittances. Transnational Communities working Paper.  WPTC. Oxford.\\
+
+
+PAGINAS WEB:\\ \\
+
+\bibitem{oim2006migracion}
+ORGANIZACIÓN INTERNACIONAL PARA LAS MIGRACIONES. (2006). La migración Internacional y el Desarrollo, Perspectivas y Experiencias de la Organización Internacional Para las Migraciones – Naciones Unidas, (http:\\www.un.int/iom/IOM\%20Perspectives\%20and \%20Experiences\%20Spanish.pdf)\\
+
+\bibitem{piebmigracion}
+PIEB. MIGRACIÓN INTERNACIONAL  Y DESARROLLO COMUNITARIO Opciones para la práctica colectiva y la política pública en zonas peri-urbanas de COCHABAMBA,                        Cochabamba,  (http:\\migrantedelsur.pieb.com.bo/archivo/proyecto.doc).\\
+
+\end{thebibliography}
+
+\end{document}
