@@ -1,0 +1,523 @@
+\documentclass{beamer}
+
+% Tema de la presentación
+\usetheme{Madrid}
+
+% Paquetes adicionales (opcional)
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} 
+\usepackage{graphicx}  % Para incluir imágenes
+\usepackage{amsmath}   % Para fórmulas matemáticas
+\usepackage{hyperref}  % Para enlaces
+\usepackage{apacite}
+\usepackage[spanish]{babel}
+\bibliographystyle{apacite}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Retornos Salariales y Obsolescencia de la Experiencia Laboral: Un Análisis Desagregado en Bolivia
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+
+\title{Retornos Salariales y Obsolescencia de la Experiencia Laboral: Un Análisis Desagregado en Bolivia}
+%\subtitle{ANÁLISIS FACTORIAL Y CLASIFICACIÓN PARA EL PERIODO 2019-2022}
+
+\author{Adrian Alejandro Delgado Rivero}
+
+%\institute{CERES} 
+\date{5 DE SEPTIEMBRE DE 2024}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\begin{document}
+% Diapositiva del título
+\begin{frame}
+    \titlepage
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
+% Diapositiva con tabla de contenidos
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle {Tabla de Contenidos}
+    \tableofcontents
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+% Sección 1
+\section{Introducción}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Introducción}        
+   Este estudio examina los retornos salariales y la obsolescencia de la experiencia laboral en diversas actividades económicas.  Los resultados destacan las desigualdades salariales entre actividades económicas y revelan la importancia de desagregar los datos para identificar tendencias ocultas.\\
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Revision de la Literatura}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+   \frametitle{Revision de la Literatura}
+    \begin{itemize}
+    \item Mincer (1970) Observó que para \textbf{grupos homogéneos de trabajadores} y en un contexto de \textbf{igualdad de oportunidades} las diferencias salariales en ocupaciones similares podrían deberse a las \textbf{diferencias en la escolaridad y la experiencia laboral, y su efecto en la productividad de los trabajadores}.\\ 
+    \item En Bolivia: Oxa y Lara (2017), Rocha (2016) y Escalante (2004) aplican la técnica de regresión cuantilica en sus modelos de Mincer ampliados.\\ 
+    \item Existen pocas experiencias de la aplicación del \textbf{modelo desagregado por actividad económica} entre ellos destaca Murillo (2006) en el caso español.
+    \item Simpson (1951) Advierte sobre el riesgo de sesgar los resultados al realizar el análisis agregado. Concluye que una \textbf{tendencia que se observa} en diferentes grupos de datos \textbf{puede desaparecer o incluso invertirse} cuando se lo \textbf{observa de manera agregada}
+ \end{itemize}
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Metodología}
+%           META DATOS DE LA METODOLOGIA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Metodología}
+    \begin{itemize}
+        \item \textbf{UNIDAD DE ANALISIS:} población ocupada, dentro y fuera de la población en edad de trabajar\\
+        \item  \textbf{TEMPORALIDAD:}2022 \\
+        \item  \textbf{ORIGEN DE LOS DATOS:} Encuesta Hogares (INE)
+         \item  \textbf{MUESTREO:} Por conglomerados\\
+    \end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%          VARIABLES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Metodologia}
+\begin{table}[h]
+\centering
+\caption{Variables utilizadas}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Variables}     &    \textbf{Recodificación}   \\ 
+\hline
+Ingreso laboral de la primera ocupación    & Sal    \\ 
+\hline
+Años de educación & Esc    \\
+\hline
+Horas trabajadas en la ocupación principal & Hrs\_sem  \\ 
+\hline
+Actividad Económica de Bolivia Ocupación principal  & Caeb\_op  \\ \hline
+
+\end{tabular}
+}
+\label{tabla:variables}
+\end{table}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%          TRATAMIENTOS DE VARIABLES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%          TECNICAS DE ANALISis
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{Metodología}
+\textbf{Tecnicas de analisis}\\
+\begin{itemize}
+    \item Prueba multivariante de normalidad de Doornik-Hansen 
+        \begin{equation}
+            DH=\sum_{j=1}^{p}{({z_{1j}}^2+{z_{2j}}^2)}
+        \end{equation}
+    Donde $Z_{1j}$: coeficiente de asimetría de la muestra j y $Z_{2j}$: coeficiente de Curtosis de la muestra j, donde DH se distribuye como una $\chi^2.$\\
+    \item Prueba no paramétrica de Kruskal-Wallis 
+        \begin{equation}
+            H=\frac{12}{N(N+1)}\sum_{i=1}^{k}{\frac{{R_i}^2}{n_i}-3(N+1)}
+        \end{equation}
+    Donde $n_j$: es el número de elementos de la muestra j,  $R_j$: suma de rangos de todos los elementos de la muestra j, $K$: número de muestras y $N$: número total de observaciones.
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%          TECNICAS DE ANALISis
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{Metodología}
+\textbf{Tecnicas de analisis}\\
+\begin{itemize}
+    \item Regresion Cuantilica 
+        \begin{equation}
+        {Sal}_{q50}=b_0+b_1Esc+b_1Exper+b_1{Exper}^2+b_1Hrs_sem+U        \end{equation}
+Donde ${Sal}_{q50}$: Mediana de los salarios, $b_0$: Salario ceteris paribus, $b_i$: Efecto de la variable independiente sobre los salarios, $Esc$: Escolaridad, $Exper$: Experiencia laboral, ${Exper}^2$: Experiencia laboral al cuadrado (Obsolescencia de la experiencia laboral), $Hrs\_sem$: Horas trabajadas en el último mes y $U$: Término estocástico.\\
+    
+    \item Optimización de la función  
+        \begin{equation}
+           \frac{\partial {Salarios}_{q50}}{\partial Experiencia}=0
+        \end{equation}
+\end{itemize}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Sección 3
+\section{Resultados}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+    \frametitle{Resultados}
+  \begin{table}[ht]
+\centering
+\caption{Test de normalidad multivariante de Doornik-Hansen por actividad económica}
+\resizebox{.35\textwidth}{!}{%
+\begin{tabular}{lcc}
+\hline
+\textbf{Actividad económica} & \textbf{Prob > chi2} \\
+\hline
+Agropecuario                & 0.0000 \\
+Minería                     & 0.0000 \\
+Manufactura                 & 0.0000 \\
+Energía                     & 0.0014 \\
+Agua y Desperdicios         & 0.0288 \\
+Construcción                & 0.0000 \\
+Comercio                    & 0.0000 \\
+Transporte                  & 0.0000 \\
+Hospitalidad                & 0.0000 \\
+Comunicaciones              & 0.0000 \\
+Finanzas                    & 0.0000 \\
+Inmobiliaria                & 0.0000 \\
+Profesionales               & 0.0000 \\
+Servicios Administrativos   & 0.0000 \\
+Gobierno                    & 0.0000 \\
+Educación                   & 0.0000 \\
+Salud y Asistencia          & 0.0000 \\
+Arte y Entretenimiento      & 0.0000 \\
+Otros Servicios             & 0.0000 \\
+Hogares                     & 0.0000 \\
+Organizaciones Exteriores   & -     \\
+\hline
+\end{tabular}}
+%\begin{flushleft}
+%\tiny{
+%\textbf{Fuente:} Elaboración propia con datos del Instituto Nacional de Estadística.\\
+%\textbf{Nota 1:} Si el valor P < 0.05 se rechaza la hipótesis nula de normalidad multivariante.
+%}
+%\end{flushleft}
+\end{table}
+
+
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           Prueba de comparación Kruskal Wallis 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Resultados}
+
+\begin{table}[ht]
+\centering
+\caption{Prueba de comparación Kruskal Wallis para muestras independientes por actividad económica}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcc}
+\hline
+\textbf{} & \textbf{Valor} & \textbf{} \\
+\hline
+\textbf{Ingreso laboral Ocupación Principal (Bs/Mes)} & & \\
+H de Kruskal-Wallis & 4495.256 & \\
+Gl & 20 & \\
+Sig. asin. & 0.000 & \\
+\hline
+\end{tabular}}
+\begin{flushleft}
+\tiny{
+\textbf{Fuente:} Elaboración propia con datos del Instituto Nacional de Estadística.\\
+\textbf{Nota 1:} Si el valor P < 0.05 se rechaza la hipótesis nula de que no hay diferencias significativas en las medianas de los grupos.}
+\end{flushleft}
+\end{table}
+
+    \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           INGRESOS POR CUANTILES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Resultados}
+
+    \begin{table}[ht]
+\centering
+\caption{Cuantiles de ingresos por actividad económica, 2022\\ (En BOB a precios corrientes)}
+\resizebox{0.69\textwidth}{!}{%
+\begin{tabular}{lccccc}
+\hline
+\textbf{Actividad económica} & \textbf{Min} & \textbf{Q1– p25} & \textbf{Q2– p50} & \textbf{Q3– p75} & \textbf{Max} \\
+\hline
+Agropecuario & 17.32 & 434.17 & 1082.5 & 2100 & 20116.67 \\
+Minería & 1299 & 2700 & 4011.35 & 6495 & 26408.33 \\
+Manufactura & 200 & 1500 & 2392.51 & 3516.67 & 36474.83 \\
+Energía & 880 & 3791.67 & 5000 & 6233.33 & 15450 \\
+Agua y Desperdicios & 2150 & 2500 & 4398.33 & 5434 & 9100 \\
+Construcción & 433 & 2554.7 & 3117.6 & 3897 & 13000 \\
+Comercio & 216.5 & 1260.03 & 2121.7 & 3200 & 22516 \\
+Transporte & 216.5 & 2000 & 2800 & 3897 & 21166.67 \\
+Hospitalidad & 216.5 & 1299 & 2016.67 & 3031 & 15155 \\
+Comunicaciones & 433 & 2191.67 & 3033.33 & 5637.25 & 21825 \\
+Finanzas & 600 & 3083.33 & 4183.33 & 5523.33 & 17008.33 \\
+Inmobiliaria & 1000 & 2250 & 3000 & 4500 & 12500 \\
+Profesionales & 450 & 2150 & 3150 & 4708.33 & 21000 \\
+Servicios Administrativos & 173.2 & 1299 & 2200 & 2930 & 11301 \\
+Gobierno & 895.83 & 3300 & 4412.5 & 5835.42 & 17362.5 \\
+Educación & 400 & 3095.83 & 4587.33 & 5962.96 & 19991.67 \\
+Salud y Asistencia & 480 & 2708.33 & 4045.83 & 6025 & 27083.33 \\
+Arte y Entretenimiento & 259.8 & 1500 & 2500 & 3865.17 & 10825 \\
+Otros Servicios & 180 & 1200 & 2162.5 & 3000 & 16822.05 \\
+Hogares & 281.45 & 1083.33 & 1688.7 & 2405.83 & 5009.3 \\
+Organizaciones Exteriores & 3150 & 6341.67 & 10833.33 & 14000 & 25000 \\
+\hline
+\end{tabular}}
+%\begin{flushleft}
+%\tiny{
+%\textbf{Fuente:} Elaboración propia con datos del Instituto Nacional de Estadística.}
+%\end{flushleft}
+\end{table}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{frame}
+    \frametitle{Resultados}
+\begin{figure}
+    \centering
+    \caption{Diagrama de cajas de los ingresos por actividad económica \\(en porcentaje) }
+    \label{fig:enter-label}
+    \includegraphics[width=0.725\linewidth]{bcb.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Elaboración propia con datos del Instituto Nacional de Estadística. }}    
+    \end{flushleft}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}
+    \frametitle{Resultados}
+\begin{figure}
+    \centering
+    \caption{Pseudo R2 por actividad económica, 2022 \\(En porcentaje) }
+    \label{fig:enter-label}
+    \includegraphics[width=0.725\linewidth]{GRAFICO 2.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Elaboración propia con datos del Instituto Nacional de Estadística. }}    
+    \end{flushleft}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}
+    \frametitle{Resultados}
+\begin{figure}
+    \centering
+    \caption{ Recuento de observaciones por actividad económica, 2022 \\ (En unidades)
+ }
+    \label{fig:enter-label}
+    \includegraphics[width=0.725\linewidth]{GRAFICO 3.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Elaboración propia con datos del Instituto Nacional de Estadística. }}    
+    \end{flushleft}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}
+    \frametitle{Resultados}
+\begin{figure}
+    \centering
+    \caption{ Rendimientos de la escolaridad sobre los Ingresos por actividad económica, 2022 \\ (En BOB a precios corrientes)
+ }
+    \label{fig:enter-label}
+    \includegraphics[width=0.725\linewidth]{GRAFICO 4.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Elaboración propia con datos del Instituto Nacional de Estadística. }}    
+    \end{flushleft}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}
+    \frametitle{Resultados}
+\begin{figure}
+    \centering
+    \caption{ Rendimientos de los años de experiencia sobre los Ingresos por actividad económica, 2022 \\ (En BOB a precios corrientes)
+ }
+    \label{fig:enter-label}
+    \includegraphics[width=0.725\linewidth]{GRAFICO 5.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Elaboración propia con datos del Instituto Nacional de Estadística. }}    
+    \end{flushleft}
+\end{figure}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}
+    \frametitle{Resultados}
+\begin{figure}
+    \centering
+    \caption{ Rendimientos de las horas trabajadas sobre los Ingresos por actividad económica, 2022 \\ (En BOB a precios corrientes)
+ }
+    \label{fig:enter-label}
+    \includegraphics[width=0.725\linewidth]{GRAFICO 6.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Elaboración propia con datos del Instituto Nacional de Estadística. }}    
+    \end{flushleft}
+\end{figure}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+    \frametitle{Resultados}
+\begin{figure}
+    \centering
+    \caption{ Obsolescencia de la experiencia laboral por actividad económica, 2022 \\(En años)
+ }
+    \label{fig:enter-label}
+    \includegraphics[width=0.725\linewidth]{GRAFICO 7.png}
+    \begin{flushleft}
+        \textit{\source{Fuente: Elaboración propia con datos del Instituto Nacional de Estadística. }}    
+    \end{flushleft}
+\end{figure}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Sección 4
+\section{Conclusiones}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Conclusiones}
+    \begin{itemize}
+        \item El análisis desagregado reveló tendencias que quedarán ocultadas en un análisis agregado. Las actividades con menor obsolescencia de la experiencia laboral, o donde esta variable no es significativa, están relativamente protegidas de caídas en la productividad y de jubilaciones forzosas a los 65 años\\
+        \item Las actividades mejor remuneradas suelen estar vinculadas al acceso a tecnología avanzada o la producción de bienes de alto básicos de alta demanda, como se observa en sectores como la minería, la energía y las finanzas. \\
+    \end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Bibliografia
+%\section{Bibliografia}
+ %   \begin{frame}
+   % \frametitle{Bibliografia}
+  %  \bibliography{Biblio.bib}
+    %\cite{cespedes_tapia_tecnicas_2012}
+   % \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Diapositiva final
+\begin{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   \frametitle{Preguntas}
+  \centering
+ \Huge{¿Preguntas?}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%ANEXOS
+
+\begin{frame}
+    \frametitle{ANEXOS}
+\begin{table}[ht]
+\centering
+\caption{Estimación de la Regresión Cuantilica, 2022}
+\resizebox{0.76\textwidth}{!}{%
+\begin{tabular}{lccccc}
+\hline
+\textbf{Actividad} & \textbf{Escolaridad} & \textbf{Exper} & \textbf{exper2} & \textbf{hrs\_sem} & \textbf{\_cons} \\
+\hline
+Agropecuario & 71.11*** & -2.3 & -0.08 & 10.15*** & 481.23** \\
+Minería & 254.11*** & 130.20*** & -1.43 & 47.60*** & \textbf{-2157.86*} \\
+Manufactura & 86.72*** & 43.27*** & \textbf{-0.66***} & 32.02*** & \textbf{-499.02*} \\
+Energía & \textbf{322.14*} & \textbf{251.54} & \textbf{-4.54} & \textbf{4.01} & \textbf{-2206.97} \\
+Agua y Desperdicios & \textbf{206.22} & \textbf{-75.78} & \textbf{1.99} & \textbf{24.04} & \textbf{752.87} \\
+Construcción & 74.29*** & 50.70*** & \textbf{-0.58***} & 30.42*** & \textbf{174.96} \\
+Comercio & 82.02*** & 47.03*** & \textbf{-0.70***} & 14.41*** & \textbf{29.2} \\
+Transporte & \textbf{36.56*} & 55.56*** & \textbf{-0.87***} & 21.56*** & 551.80* \\
+Hospitalidad & 60.53*** & 49.92*** & \textbf{-0.60***} & 22.52*** & \textbf{-138.21} \\
+Comunicaciones & 331.58*** & \textbf{192.44**} & \textbf{-3.08*} & \textbf{26.5} & \textbf{-4517.50**} \\
+Finanzas & 456.96*** & 202.83*** & \textbf{-2.95} & \textbf{27.33} & -6307.36*** \\
+Inmobiliaria & \textbf{87.89} & \textbf{108.95} & \textbf{-2.14} & \textbf{21.05} & \textbf{-17.5} \\
+Profesionales & 185.36*** & \textbf{81.40**} & \textbf{-1.09*} & 34.54*** & \textbf{-2070.04**} \\
+Servicios Administrativos & 98.50*** & 40.17*** & \textbf{-0.50**} & 29.53*** & -677.54*** \\
+Gobierno & 326.38*** & 118.00*** & \textbf{-1.04*} & \textbf{13.65*} & -2747.59*** \\
+Educación & 416.71*** & 125.36*** & \textbf{-1.02*} & 32.80*** & -5319.26*** \\
+Salud y Asistencia & 449.22*** & 139.59*** & \textbf{-0.85} & \textbf{2.98} & -4750.03*** \\
+Arte y Entretenimiento & \textbf{87.67} & \textbf{59.14} & \textbf{-1} & \textbf{21.23*} & \textbf{198.29} \\
+Otros Servicios & 112.84*** & 57.98*** & \textbf{-0.69***} & 21.18*** & \textbf{-755.72***} \\
+Hogares & 87.42*** & 47.74*** & \textbf{-0.42**} & 18.94*** & \textbf{-610.02***} \\
+\hline
+\end{tabular}}
+\begin{flushleft}
+\tiny{
+\textbf{Nota 1:} Legend: * p<0.05; ** p<0.01; *** p<0.001 \\
+\textbf{Nota 2:} Los coeficientes en negrilla no son estadísticamente significativos para explicar los salarios de las actividades económicas.}
+\end{flushleft}
+\end{table}
+
+\end{frame}
+
+\begin{frame}{ANEXOS}
+    \begin{table}[ht]
+\centering
+\caption{Número de Observaciones y Ajuste del Modelo por Actividad Económica}
+\resizebox{0.425\textwidth}{!}{%
+\begin{tabular}{lcc}
+\hline
+\textbf{Variable} & \textbf{N} & \textbf{Pseudo R2} \\
+\hline
+Agropecuario & 2604 & 0.08 \\
+Minería & 250 & 0.10 \\
+Manufactura & 1818 & 0.09 \\
+Energía & 45 & 0.24 \\
+Agua y Desperdicios & 31 & 0.08 \\
+Construcción & 1459 & 0.06 \\
+Comercio & 3167 & 0.06 \\
+Transporte & 1412 & 0.05 \\
+Hospitalidad & 1071 & 0.08 \\
+Comunicaciones & 173 & 0.14 \\
+Finanzas & 165 & 0.20 \\
+Inmobiliaria & 43 & 0.06 \\
+Profesionales & 527 & 0.10 \\
+Servicios Administrativos & 285 & 0.23 \\
+Gobierno & 580 & 0.18 \\
+Educación & 936 & 0.19 \\
+Salud y Asistencia & 641 & 0.18 \\
+Arte y Entretenimiento & 164 & 0.07 \\
+Otros Servicios & 416 & 0.17 \\
+Hogares & 365 & 0.19 \\
+\hline
+\end{tabular}}
+\begin{flushleft}
+\tiny{
+\textbf{Nota 1:} Los coeficientes en negrilla no son significativos para explicar los salarios de las actividades económicas.}
+\end{flushleft}
+\end{table}
+
+\end{frame}
+
+\end{document}
+
